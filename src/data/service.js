@@ -40,49 +40,67 @@ const serviceOne = {
   ],
 };
 
-import ServiceImageOne from "/assets/imgs/thumb/service-img-1.webp";
-import ServiceImageTwo from "/assets/imgs/thumb/service-img-2.webp";
-import ServiceImageThree from "/assets/imgs/thumb/service-img-3.webp";
+// import ServiceImageOne from "/assets/imgs/thumb/service-img-1.webp";
+// import ServiceImageTwo from "/assets/imgs/thumb/service-img-2.webp";
+// import ServiceImageThree from "/assets/imgs/thumb/service-img-3.webp";
 
-import ServiceShapeOne from "/assets/imgs/shape/sr-shapefour-1.webp";
-import ServiceShapeTwo from "/assets/imgs/shape/sr-shapefour-2.webp";
-import ServiceShapeThree from "/assets/imgs/shape/sr-shapefour-3.webp";
+// import ServiceShapeOne from "/assets/imgs/shape/sr-shapefour-1.webp";
+// import ServiceShapeTwo from "/assets/imgs/shape/sr-shapefour-2.webp";
+// import ServiceShapeThree from "/assets/imgs/shape/sr-shapefour-3.webp";
 
 const serviceTwo = {
-  title: "Experi mentation fosters creativity",
+  title: {
+    sliceOne: "Tools You will Learn",
+    sliceTwo: "Skillhub?",
+  },
   services: [
     {
-      image: ServiceImageOne,
-      shape: ServiceShapeOne,
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.4",
-      },
-      title: "Boosting confidence",
-      description:
-        "Fostering your childs self-assurance to encourage learning from our platforms & Building kids self-assurance.",
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
     },
     {
-      image: ServiceImageTwo,
-      shape: ServiceShapeTwo,
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.6",
-      },
-      title: "Express creatively",
-      description:
-        "Fostering your childs self-assurance to encourage learning from our platforms & Building kids self-assurance.",
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
     },
     {
-      image: ServiceImageThree,
-      shape: ServiceShapeThree,
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.8",
-      },
-      title: "Tailored learning",
-      description:
-        "Fostering your childs self-assurance to encourage learning from our platforms & Building kids self-assurance.",
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
     },
   ],
 };

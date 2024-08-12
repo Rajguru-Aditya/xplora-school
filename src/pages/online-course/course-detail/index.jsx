@@ -1,16 +1,20 @@
 import CtaOne from "@/components/CTA/CtaOne";
 import CourseDetailOne from "@/components/CourseDetail/CourseDetailOne";
 import LayoutOne from "@/components/Layout/LayoutOne";
-import HeroOne from "@/components/Hero/HeroTwo";
-import BlogOne from "@/components/Blog/BlogTwo";
+import HeroTwo from "@/components/Hero/HeroTwo";
+import BlogTwo from "@/components/Blog/BlogTwo";
+import ServiceTwo from "@/components/Service/ServiceTwo";
+import PartnerTwo from "@/components/Partner/PartnerTwo";
 
 export default function CourseDetails() {
   return (
     <LayoutOne>
       <main>
-        <HeroOne />
+        <HeroTwo />
+        <ServiceTwo />
         <CourseDetailOne />
-        <BlogOne />
+        <PartnerTwo />
+        <BlogTwo />
         <CtaOne />
       </main>
     </LayoutOne>
