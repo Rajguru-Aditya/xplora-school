@@ -5,6 +5,8 @@ import HeroTwo from "@/components/Hero/HeroTwo";
 import BlogTwo from "@/components/Blog/BlogTwo";
 import ServiceTwo from "@/components/Service/ServiceTwo";
 import PartnerTwo from "@/components/Partner/PartnerTwo";
+import CourseTwo from "@/components/Course/CourseTwo";
+import CourseFeeOne from "../../../components/CourseFee/CourseFeeOne";
 
 export default function CourseDetails() {
   return (
@@ -12,8 +14,10 @@ export default function CourseDetails() {
       <main>
         <HeroTwo />
         <ServiceTwo />
+        <CourseTwo />
         <CourseDetailOne />
         <PartnerTwo />
+        <CourseFeeOne />
         <BlogTwo />
         <CtaOne />
       </main>

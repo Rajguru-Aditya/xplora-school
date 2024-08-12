@@ -259,64 +259,144 @@ import CourseTwoImageTwo from "/assets/imgs/thumb/course-four-2.webp";
 import CourseTwoImageThree from "/assets/imgs/thumb/course-four-3.webp";
 
 const courseTwo = {
-  title: "Explore Our Course",
-  btn: {
-    text: "View all course",
-    link: "/",
+  title: {
+    sliceOne: "Success Stories",
   },
-  courses: [
+  subtitle:
+    "We offer a diverse range of courses designed to help you acquire new skills, advance your career, and achieve your professional goals. Each course is carefully crafted to provide you with practical knowledge and hands-on experience in your chosen field.",
+  filterOptions: [
     {
-      image: CourseTwoImageOne,
-      title: "MATHS for Kids",
-      description:
-        "Metus aliquam eleifend mi in nulla posuere thsi sollicitudin",
-      link: "course-detail",
-      price: "$12",
-      discount: "60%",
-      btn: {
-        text: "Enroll Now",
-        link: "course-detail",
-      },
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.4",
-      },
+      name: "All",
+      target: "*",
     },
     {
-      image: CourseTwoImageTwo,
-      title: "Science for Kids",
-      description:
-        "Metus aliquam eleifend mi in nulla posuere thsi sollicitudin",
-      link: "course-detail",
-      price: "$13",
-      discount: "60%",
-      btn: {
-        text: "Enroll Now",
-        link: "course-detail",
-      },
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.6",
-      },
+      name: "Trending",
+      target: "trending",
     },
     {
-      image: CourseTwoImageThree,
-      title: "English for Kids",
-      description:
-        "Metus aliquam eleifend mi in nulla posuere thsi sollicitudin",
-      link: "course-detail",
-      price: "$15",
-      discount: "60%",
-      btn: {
-        text: "Enroll Now",
-        link: "course-detail",
-      },
-      animation: {
-        name: "fade-slide bottom",
-        delay: "0.8",
-      },
+      name: "Popular",
+      target: "popular",
+    },
+    {
+      name: "Featured",
+      target: "featured",
     },
   ],
+  courses: [
+    {
+      image:
+        "https://plus.unsplash.com/premium_photo-1661774861781-e540fbc29330?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      instructor: {
+        image: InstructorImageFive,
+        name: "Jackie Rippin",
+      },
+      wishlistIcon: WishListIcon,
+      title: " Aisha Patel, 31",
+      company: "Cognizant",
+      price: "$19.00",
+      link: "course-detail",
+      filterClass: "trending",
+      categories: [
+        {
+          name: "Trending",
+          link: "categories",
+        },
+      ],
+      meta: [
+        {
+          icon: StarRedIcon,
+          description: "4.9 Rating",
+        },
+        {
+          icon: StatusIcon,
+          description: "Beginner",
+        },
+        {
+          icon: UserGroupIcon,
+          description: "5K+ Students",
+        },
+      ],
+      enrollBtnText: "Enroll Now",
+      arrowIcon: RightArrowRedIcon,
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      instructor: {
+        image: InstructorImageOne,
+        name: "Jackie Rippin",
+      },
+      wishlistIcon: WishListIcon,
+      title: " Aisha Patel, 31",
+      company: "Cognizant",
+      price: "$9.00",
+      link: "course-detail",
+      filterClass: "trending",
+      categories: [
+        {
+          name: "Trending",
+          link: "categories",
+        },
+      ],
+      meta: [
+        {
+          icon: StarRedIcon,
+          description: "4.9 Rating",
+        },
+        {
+          icon: StatusIcon,
+          description: "Beginner",
+        },
+        {
+          icon: UserGroupIcon,
+          description: "5K+ Students",
+        },
+      ],
+      enrollBtnText: "Enroll Now",
+      arrowIcon: RightArrowRedIcon,
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1437572848259-df63caa1a552?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      instructor: {
+        image: InstructorImageTwo,
+        name: "Jackie Rippin",
+      },
+      wishlistIcon: WishListIcon,
+      title: " Aisha Patel, 31",
+      company: "Cognizant",
+      price: "$15.00",
+      link: "course-detail",
+      filterClass: "popular",
+      categories: [
+        {
+          name: "Trending",
+          link: "categories",
+        },
+      ],
+      meta: [
+        {
+          icon: StarRedIcon,
+          description: "4.9 Rating",
+        },
+        {
+          icon: StatusIcon,
+          description: "Beginner",
+        },
+        {
+          icon: UserGroupIcon,
+          description: "5K+ Students",
+        },
+      ],
+      enrollBtnText: "Enroll Now",
+      arrowIcon: RightArrowRedIcon,
+    },
+  ],
+  more: {
+    name: "Browse More",
+    icon: RightArrowWhiteIcon,
+    link: "courses",
+  },
 };
 
 import CourseThreeImageOne from "/assets/imgs/thumb/course-6-1.webp";
@@ -418,4 +498,38 @@ const courseThree = {
   ],
 };
 
-export { courseOne, courseTwo, courseThree };
+const courseFee = {
+  title: "Course Fee",
+  cards: [
+    {
+      title: "Online",
+      amount: "$100",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      features: [
+        "Self-paced learning",
+        "24/7 access",
+        "Expert instructor",
+        "Real world projects",
+        "Access on all design tools and resources",
+      ],
+      buttonText: "Apply Now",
+      type: "Online",
+    },
+    {
+      title: "Hybrid",
+      amount: "$200",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      features: [
+        "Self-paced learning",
+        "24/7 access",
+        "Expert instructor",
+        "Real world projects",
+        "Access on all design tools and resources",
+      ],
+      buttonText: "Apply Now",
+      type: "Hybrid",
+    },
+  ],
+};
+
+export { courseOne, courseTwo, courseThree, courseFee };
