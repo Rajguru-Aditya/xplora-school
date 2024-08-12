@@ -6,7 +6,8 @@ import BlogTwo from "@/components/Blog/BlogTwo";
 import ServiceTwo from "@/components/Service/ServiceTwo";
 import PartnerTwo from "@/components/Partner/PartnerTwo";
 import CourseTwo from "@/components/Course/CourseTwo";
-import CourseFeeOne from "../../../components/CourseFee/CourseFeeOne";
+import CourseFeeOne from "@/components/CourseFee/CourseFeeOne";
+import CourseHighlights from "@/components/CourseHighlights/CourseHighlights";
 
 export default function CourseDetails() {
   return (
@@ -15,6 +16,7 @@ export default function CourseDetails() {
         <HeroTwo />
         <ServiceTwo />
         <CourseTwo />
+        <CourseHighlights />
         <CourseDetailOne />
         <PartnerTwo />
         <CourseFeeOne />

@@ -532,4 +532,40 @@ const courseFee = {
   ],
 };
 
-export { courseOne, courseTwo, courseThree, courseFee };
+const courseHighlights = {
+  title: "Course Highlights",
+  accordion: [
+    {
+      title: "Accordion 1",
+      content: "Content for Accordion 1",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+    {
+      title: "Accordion 2",
+      content: "Content for Accordion 2",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+    {
+      title: "Accordion 3",
+      content: "Content for Accordion 3",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+    {
+      title: "Accordion 4",
+      content: "Content for Accordion 4",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+    {
+      title: "Accordion 5",
+      content: "Content for Accordion 5",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+    {
+      title: "Accordion 6",
+      content: "Content for Accordion 6",
+      button: "Project: Design a basic wireframe for a mobile app.",
+    },
+  ],
+};
+
+export { courseOne, courseTwo, courseThree, courseFee, courseHighlights };

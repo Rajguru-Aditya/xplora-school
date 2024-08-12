@@ -1,0 +1,96 @@
+.course-fee-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  &__features-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  &__card-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  
+  &__card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 25px;
+    border: #1B223C 1px solid;
+    max-width: calc(100vw/3);
+    height: 100%;
+    color: #1B223C;
+  }
+
+  .hybrid{
+    background-color: #005120;
+    padding: 25px;
+    border-radius: 25px;
+    border: #1B223C 1px solid;
+    max-width: calc(100vw/3);
+    height: 100%;
+    color: #fff;
+  }
+  
+  &__title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--black-2)
+  }
+  
+  &__card-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  &__card-description{
+    font-size: 22px;
+  }
+  
+  &__card-amount {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  &__card-feature-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__checkmark{
+    color: #fff;
+    height: 15px;
+    width: 15px;
+  }
+
+  &__card-feature{
+    font-size: 22px;
+  }
+
+  &__card-button{
+    background-color: #fff;
+    border: #1B223C 1px solid;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 100%;
+  }
+}
