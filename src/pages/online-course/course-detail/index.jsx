@@ -17,7 +17,7 @@ export default function CourseDetails() {
         <ServiceTwo />
         <CourseTwo />
         <CourseHighlights />
-        <CourseDetailOne />
+        {/* <CourseDetailOne /> */}
         <PartnerTwo />
         <CourseFeeOne />
         <BlogTwo />
