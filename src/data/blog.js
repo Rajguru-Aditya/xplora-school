@@ -242,84 +242,147 @@ const blogContentOne = [
   },
 ];
 
-import BlogTwoImageOne from "/assets/imgs/thumb/blog-thumb-1.webp";
-import BlogTwoImageTwo from "/assets/imgs/thumb/blog-thumb-2.webp";
-import BlogTwoImageThree from "/assets/imgs/thumb/blog-thumb-3.webp";
-import BlogTwoBtnIcon from "/assets/imgs/icon/arrow-right-thin.svg";
+// import BlogTwoImageOne from "/assets/imgs/thumb/blog-thumb-1.webp";
+// import BlogTwoImageTwo from "/assets/imgs/thumb/blog-thumb-2.webp";
+// import BlogTwoImageThree from "/assets/imgs/thumb/blog-thumb-3.webp";
+// import BlogTwoBtnIcon from "/assets/imgs/icon/arrow-right-thin.svg";
 
 const blogTwo = {
-  title: "Inspire to learn and growth",
+  title: {
+    sliceOne: "Frequently Asked Questions",
+    sliceTwo: "Blog",
+  },
   blogs: [
     {
-      image: BlogTwoImageOne,
-      title: "Family-friendly eco-adventure",
+      image: BlogImageOne,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "1. What is the Placement Guarantee?",
       link: "blog-detail",
-      meta: [
-        {
-          name: "01 Jan 2024",
-          link: "#",
-        },
-        {
-          name: "Event",
-          link: "#",
-        },
-      ],
+      description:
+        "Guaranteed Job Placement or Your Money Back! Our Placement Guarantee ensures that you will find a job within [X months] of completing your course. If you don't, we will provide additional support and resources at no extra cost.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      image: BlogImageTwo,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "2. How does the Placement Guarantee work?",
+      link: "blog-detail",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
       animation: {
         name: "fade-slide bottom",
         delay: "0.4",
       },
-      btn: {
-        text: "Read More",
-        link: "blog-detail",
-        icon: BlogTwoBtnIcon,
-      },
     },
     {
-      image: BlogTwoImageTwo,
-      title: "School-friendly eco expeditions",
+      image: BlogImageThree,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "3. Are there any prerequisites for enrolling in the courses?",
       link: "blog-detail",
-      meta: [
-        {
-          name: "01 Jan 2024",
-          link: "#",
-        },
-        {
-          name: "Event",
-          link: "#",
-        },
-      ],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
       animation: {
         name: "fade-slide bottom",
         delay: "0.6",
       },
-      btn: {
-        text: "Read More",
-        link: "blog-detail",
-        icon: BlogTwoBtnIcon,
+    },
+    {
+      image: BlogImageThree,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "4. What formats are available for the courses?",
+      link: "blog-detail",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.6",
       },
     },
     {
-      image: BlogTwoImageThree,
-      title: "Gold at Skillhub for digital learning museum",
+      image: BlogImageThree,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "5. Can I get a refund if I’m not satisfied with the course?",
       link: "blog-detail",
-      meta: [
-        {
-          name: "01 Jan 2024",
-          link: "#",
-        },
-        {
-          name: "Event",
-          link: "#",
-        },
-      ],
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
       animation: {
         name: "fade-slide bottom",
-        delay: "0.8",
+        delay: "0.6",
       },
-      btn: {
-        text: "Read More",
-        link: "blog-detail",
-        icon: BlogTwoBtnIcon,
+    },
+    {
+      image: BlogImageThree,
+      artRedIcon: ArtRedIcon,
+      timeSquareIcon: TimeSquareIcon,
+      title: "6. How do I contact support if I need help?",
+      link: "blog-detail",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      category: {
+        name: "Art & Design",
+        link: "category",
+      },
+      time: "05 Jan 2024",
+      moreBtn: {
+        text: "Read more",
+        icon: ArrowRightDark,
+      },
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.6",
       },
     },
   ],
