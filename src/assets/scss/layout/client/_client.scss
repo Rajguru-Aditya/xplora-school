@@ -5,6 +5,11 @@
     &__area {
         background-color: var(--white);
         padding-top: 60px;
+        min-height: 50vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .swiper-wrapper { 
             transition-timing-function: linear;
         }
