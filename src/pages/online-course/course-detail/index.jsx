@@ -9,6 +9,7 @@ import CourseTwo from "@/components/Course/CourseTwo";
 import CourseFeeOne from "@/components/CourseFee/CourseFeeOne";
 import CourseHighlights from "@/components/CourseHighlights/CourseHighlights";
 import PlacementGuarantee from "@/components/PlacementGuarantee/PlacementGuarantee";
+import Certificates from "@/components/Certificates/Certificates";
 
 export default function CourseDetails() {
   return (
@@ -22,6 +23,7 @@ export default function CourseDetails() {
         <PartnerTwo />
         <CourseFeeOne />
         <PlacementGuarantee />
+        <Certificates />
         <BlogTwo />
         <CtaOne />
       </main>
