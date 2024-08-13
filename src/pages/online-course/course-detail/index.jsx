@@ -8,6 +8,7 @@ import PartnerTwo from "@/components/Partner/PartnerTwo";
 import CourseTwo from "@/components/Course/CourseTwo";
 import CourseFeeOne from "@/components/CourseFee/CourseFeeOne";
 import CourseHighlights from "@/components/CourseHighlights/CourseHighlights";
+import PlacementGuarantee from "@/components/PlacementGuarantee/PlacementGuarantee";
 
 export default function CourseDetails() {
   return (
@@ -20,6 +21,7 @@ export default function CourseDetails() {
         {/* <CourseDetailOne /> */}
         <PartnerTwo />
         <CourseFeeOne />
+        <PlacementGuarantee />
         <BlogTwo />
         <CtaOne />
       </main>
