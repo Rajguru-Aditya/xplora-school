@@ -11,12 +11,22 @@ $background-color: #005120;
   margin-top: 20px;
   color: #fff;
 
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    padding: 50px 20px;
+
+  }
+
   &__left-column {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
+    @media screen and (max-width: 950px) {
+      padding-left: 0;
+      align-items: center;
+    }
   }
 
     &__title {
@@ -48,6 +58,10 @@ $background-color: #005120;
       width: 70%;
       font-size: 1rem;
       font-weight: bold;
+
+      @media  screen and (max-width: 950px) {
+        width: 100%;
+      }
 
       &:hover {
         background-color: #02481e;

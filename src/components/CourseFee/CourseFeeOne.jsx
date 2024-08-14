@@ -28,7 +28,9 @@ const CourseFeeOne = () => {
                   className={`course-fee-one__card-feature-container`}
                 >
                   <img
-                    src="https://img.icons8.com/ios-glyphs/30/FFFFFF/checkmark--v1.png"
+                    src={`https://img.icons8.com/ios-glyphs/30/${
+                      item.title === "Online" ? "000000" : "ffffff"
+                    }/checkmark--v1.png`}
                     alt="checkmark"
                     className="course-fee-one__checkmark"
                   />

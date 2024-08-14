@@ -22,7 +22,18 @@ const CourseHighlights = () => {
           spacing={2}
           className="course-highlight__accordion-grid"
         >
-          <Grid item xs={6} marginTop={2}>
+          <Grid
+            item
+            // xs={6}
+            sx={{
+              marginTop: {
+                sm: 2,
+                xs: 0,
+                lg: 2,
+              },
+            }}
+            className="course-highlight__accordion-inner-grid"
+          >
             {courseHighlights.accordion.slice(0, 3).map((highlight, index) => (
               <Accordion className="course-highlights__accordion" key={index}>
                 <AccordionSummary
@@ -57,9 +68,24 @@ const CourseHighlights = () => {
               </Accordion>
             ))}
           </Grid>
-          <Grid item xs={6} marginTop={2}>
+          <Grid
+            item
+            // xs={6}
+            sx={{
+              marginTop: {
+                sm: 0,
+                xs: 0,
+                lg: 2,
+              },
+            }}
+            className="course-highlight__accordion-inner-grid"
+          >
             {courseHighlights.accordion.slice(3).map((highlight, index) => (
-              <Accordion className="course-highlights__accordion" key={index}>
+              <Accordion
+                className={`course-highlights__accordion ${highlight.animation.name}`}
+                key={index}
+                data-delay={highlight.animation.delay}
+              >
                 <AccordionSummary
                   expandIcon={
                     <ExpandMoreIcon
