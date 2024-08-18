@@ -144,108 +144,6 @@ const courseOne = {
       enrollBtnText: "Enroll Now",
       arrowIcon: RightArrowRedIcon,
     },
-    {
-      image: CourseImageThree,
-      instructor: {
-        image: InstructorImageThree,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: "HTML & CSS Fundamentals: Building the Web from Scratch",
-      price: "$13.00",
-      link: "course-detail",
-      filterClass: "popular",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
-    },
-    {
-      image: CourseImageFour,
-      instructor: {
-        image: InstructorImageFour,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: "UI/UX Design Principles: Enhancing User Experience",
-      price: "$11.00",
-      link: "course-detail",
-      filterClass: "featured",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
-    },
-    {
-      image: CourseImageSix,
-      instructor: {
-        image: InstructorImageFive,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: "Web Design Trends: Staying Current in a Dynamic Field",
-      price: "$17.00",
-      link: "course-detail",
-      filterClass: "featured",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
-    },
   ],
   more: {
     name: "Browse More",
@@ -403,6 +301,7 @@ import CourseThreeImageOne from "/assets/imgs/thumb/course-6-1.webp";
 import CourseThreeImageTwo from "/assets/imgs/thumb/course-6-2.webp";
 import CourseThreeImageThree from "/assets/imgs/thumb/course-6-3.webp";
 import CourseThreeImageFour from "/assets/imgs/thumb/course-6-4.webp";
+import { duration } from "@mui/material";
 
 const courseThree = {
   title: "Our health coach online courses",
@@ -532,7 +431,170 @@ const courseFee = {
   ],
 };
 
-const courseHighlights = {
+const courseHighlightsUI = {
+  title: "Course Highlights",
+  info: [
+    { title: "duration", details: "6 Months" },
+    {
+      title: "format",
+      details: "Online/Hybrid",
+    },
+    {
+      title: "average package",
+      details: "6LPA",
+    },
+    {
+      title: "placement guarantee",
+      details: "Get a Job in UI/UX Design or Your Money Back!",
+    },
+  ],
+  accordion: [
+    {
+      title: "Module 1: Introduction to Design",
+      content: [
+        "What is Design?",
+        "Introduction to UI (User Interface) and UX (User Experience)",
+        "Differences and Relationships between UI and UX",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 2: Fundamental Design Principles",
+      content: [
+        "Color Theory",
+        "Typography",
+        "Layouts and Composition",
+        "Visual Hierarchy",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 3: Design Thinking",
+      content: [
+        "Overview of Design Thinking",
+        "Stages: Empathize, Define, Ideate, Prototype, Test",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 4: Research Methods",
+      content: [
+        "Conducting User Interviews",
+        "Creating and Analyzing Surveys",
+        "Identifying User Needs and Pain Points",
+        "Analyzing Competitors",
+        "Identifying Market Trends and Opportunities",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 5: Wireframing and Prototyping",
+      content: [
+        "Introduction to Wireframes",
+        "Tools for Wireframing (e.g., Balsamiq, Figma)",
+        "Creating Interactive Prototypes",
+        "Tools for Prototyping (e.g., Figma, Adobe XD)",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+
+    {
+      title: "Module 6: User Interface Design",
+      content: [
+        "Overview of Design Tools (e.g., Figma, Adobe XD)",
+        "Creating and Using UI Elements",
+        "Designing Engaging Interfaces",
+        "Principles of Responsive Design",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 7: Interaction Design",
+      content: [
+        "Understanding Affordances and Feedback",
+        "Designing User Flows and Journeys",
+        "Conducting Usability Tests",
+        "Iterating on Designs",
+        "Gathering and Analyzing Feedback",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 8: Technical Understanding and Project Management",
+      content: [
+        "Introduction to HTML and CSS",
+        "Understanding How Designs Are Implemented",
+        "Managing Design Projects and Timelines",
+        "Building a Portfolio",
+        "Preparing for Job Applications",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 9: Hands-On Projects",
+      content: [
+        "Project 1: Personal Website",
+        "Project 2: Mobile App Design",
+        "Conducting Usability Tests",
+        "Project 3: Redesign Project",
+        "Gathering and Analyzing Feedback",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 10: Job Preparation",
+      content: [
+        "Crafting a UI/UX-Focused Resume",
+        "Writing a Compelling Cover Letter",
+        "Preparing for Common UI/UX Interview Questions",
+        "Practicing Design Challenges and Portfolio Reviews",
+      ],
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+  ],
+};
+
+const courseHighlightsMarketing = {
   title: "Course Highlights",
   accordion: [
     {
@@ -592,4 +654,72 @@ const courseHighlights = {
   ],
 };
 
-export { courseOne, courseTwo, courseThree, courseFee, courseHighlights };
+const courseHighlightsAnalyst = {
+  title: "Course Highlights",
+  accordion: [
+    {
+      title: "Accordion 1",
+      content: "Content for Accordion 1",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Accordion 2",
+      content: "Content for Accordion 2",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Accordion 3",
+      content: "Content for Accordion 3",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Accordion 4",
+      content: "Content for Accordion 4",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Accordion 5",
+      content: "Content for Accordion 5",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Accordion 6",
+      content: "Content for Accordion 6",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+  ],
+};
+
+export {
+  courseOne,
+  courseTwo,
+  courseThree,
+  courseFee,
+  courseHighlightsUI,
+  courseHighlightsMarketing,
+  courseHighlightsAnalyst,
+};

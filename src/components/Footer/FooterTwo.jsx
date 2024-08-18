@@ -115,7 +115,7 @@ export default function FooterTwo() {
       </div>
       <div className="footer__btm-4">
         <p className="footer__copyrightText-4">
-          © Skillhub 2024, Designed{" "}
+          © Xplora 2024, Designed{" "}
           <Link to="https://codexshaper.com">CodeXshaper</Link>
         </p>
         {/* <!-- Footer socail  --> */}

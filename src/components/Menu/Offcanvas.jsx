@@ -140,7 +140,7 @@ export default function Offcanvas() {
         </div>
         <div className="offcanvas-copyright">
           <p className="mb-0 text-center">
-            © Skillhub 2024, Designed CodeXshaper
+            © Xplora 2024, Designed CodeXshaper
           </p>
         </div>
       </div>

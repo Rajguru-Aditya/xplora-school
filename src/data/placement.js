@@ -1,7 +1,7 @@
 const placement = {
   title: "How Placement Guarantee Works",
   subtitle:
-    "At Career Ease, we are committed to your success. Our Placement Guarantee is designed to provide you with the support and resources you need to secure a job in your chosen field. Here’s how it works:",
+    "At Xplora School, we are committed to your success. Our Placement Guarantee is designed to provide you with the support and resources you need to secure a job in your chosen field. Here’s how it works:",
   timelineLeft: [
     {
       step: "Step 01",

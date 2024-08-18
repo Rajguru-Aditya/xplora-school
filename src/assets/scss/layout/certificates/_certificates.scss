@@ -77,6 +77,12 @@ $background-color: #005120;
         color: #00752F;
       }
     }
+
+    .certificates__btn-clicked {
+        outline: none;
+        background-color: #fff;
+        color: #00752F;
+    }
   }
 
   &__right-column {
@@ -88,9 +94,9 @@ $background-color: #005120;
 
   &__image {
     max-width: calc(50vw - 40px);
-    max-height: 100%;
     width: 80%;
-    height: 100%;
+    height: 500px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #0ff;

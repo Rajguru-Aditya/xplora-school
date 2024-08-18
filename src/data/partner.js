@@ -9,7 +9,7 @@ import ClientEight from "/assets/imgs/logo/client-logo-2.webp";
 import ClientNine from "/assets/imgs/logo/client-logo-3.webp";
 
 const partnerOne = {
-  title: "Top Companies Hiring on Career Ease",
+  title: "Top Companies Hiring on Xplora School",
   items: [
     ClientOne,
     ClientTwo,

@@ -3,6 +3,7 @@ import LogoTwo from "/assets/imgs/logo/logo-children.webp";
 import LogoThree from "/assets/imgs/logo/health-coach-logo.webp";
 import SearchIcon from "/assets/imgs/icon/search-icon.svg";
 import CartIcon from "/assets/imgs/icon/cart-icon.svg";
+import XploraLogo from "/assets/imgs/logo/xploraLogo.svg";
 
 import CategoryMenuOneIconOne from "/assets/imgs/menu-icon/2.svg";
 import CategoryMenuOneIconTwo from "/assets/imgs/menu-icon/3.svg";
@@ -12,41 +13,41 @@ import CategoryMenuOneIconFive from "/assets/imgs/menu-icon/6.svg";
 import CategoryMenuOneIconSix from "/assets/imgs/menu-icon/7.svg";
 
 const HeaderOne = {
-  logo: LogoOne,
+  logo: XploraLogo,
   searchIcon: SearchIcon,
   cartIcon: CartIcon,
-  categories: [
-    {
-      name: "Graphic Design",
-      link: "courses",
-      icon: CategoryMenuOneIconOne,
-    },
-    {
-      name: "Web Development",
-      link: "courses",
-      icon: CategoryMenuOneIconTwo,
-    },
-    {
-      name: "Digital Marketing",
-      link: "courses",
-      icon: CategoryMenuOneIconThree,
-    },
-    {
-      name: "It and Software",
-      link: "courses",
-      icon: CategoryMenuOneIconFour,
-    },
-    {
-      name: "Development",
-      link: "courses",
-      icon: CategoryMenuOneIconFive,
-    },
-    {
-      name: "Data Science",
-      link: "courses",
-      icon: CategoryMenuOneIconSix,
-    },
-  ],
+  // categories: [
+  //   {
+  //     name: "Graphic Design",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconOne,
+  //   },
+  //   {
+  //     name: "Web Development",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconTwo,
+  //   },
+  //   {
+  //     name: "Digital Marketing",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconThree,
+  //   },
+  //   {
+  //     name: "It and Software",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconFour,
+  //   },
+  //   {
+  //     name: "Development",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconFive,
+  //   },
+  //   {
+  //     name: "Data Science",
+  //     link: "courses",
+  //     icon: CategoryMenuOneIconSix,
+  //   },
+  // ],
 };
 
 const headerTwo = {

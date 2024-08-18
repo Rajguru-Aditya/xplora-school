@@ -30,7 +30,7 @@ export default function MegaMenuOne({ menus }) {
               ))}
             </div>
           )}
-          <p className="copyright">@Skillhub 2024</p>
+          <p className="copyright">@Xplora 2024</p>
         </div>
       </div>
       <div className="col-lg-9 menu-right-side-inner">

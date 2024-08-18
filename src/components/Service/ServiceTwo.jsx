@@ -1,4 +1,5 @@
 import { serviceTwo as data } from "@/data/service";
+import { Grid } from "@mui/material";
 
 export default function ServiceTwo() {
   return (
@@ -16,22 +17,39 @@ export default function ServiceTwo() {
           </div>
         </div>
         {data.services && data.services.length && (
-          <div className="row gy-4">
+          <Grid
+            className="service__tools-container"
+            container
+            // spacing={4}
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              marginTop: "2rem",
+              width: "100%",
+            }}
+            xs={12}
+            paddingLeft={0}
+          >
             {data.services.map((service, index) => (
-              <div
+              <Grid
+                item
                 key={index}
-                className={`col-xl-3 col-lg-3 col-md-6 ${service.animation.name}`}
+                className={`${service.animation.name}`}
+                padding={2}
+                paddingLeft={0}
               >
-                <div className={`service__item ${service.classNames}`}>
+                <Grid item className={`service__item ${service.classNames}`}>
                   <div className="service__icon">
                     {service.icon && <img src={service.icon} alt="Icon" />}
                   </div>
                   <h3 className="service__title">{service.title}</h3>
                   {service.description && <p>{service.description}</p>}
-                </div>
-              </div>
+                </Grid>
+              </Grid>
             ))}
-          </div>
+          </Grid>
         )}
       </div>
     </section>

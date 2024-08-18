@@ -118,7 +118,7 @@ export default function FooterThree() {
               <div className="row">
                 <div className="col-md-6 align-self-center">
                   <p className="mb-md-0 mb-3">
-                    © Skillhub 2024, Designed CodeXshaper
+                    © Xplora 2024, Designed CodeXshaper
                   </p>
                 </div>
                 <div className="col-md-6 text-md-end">

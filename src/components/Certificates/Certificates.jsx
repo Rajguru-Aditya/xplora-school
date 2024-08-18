@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import certificates from "../../data/certificates";
 
 const Certificates = () => {
   const [activeImage, setActiveImage] = useState("");
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    setActiveImage(certificates.buttons[0].link);
+  }, []);
+
+  useEffect(() => {
+    setClicked(activeImage);
+  }, [activeImage]);
 
   return (
     <section className="certificates">
@@ -13,7 +22,9 @@ const Certificates = () => {
           {certificates.buttons.map((button, index) => (
             <button
               key={index}
-              className="certificates__button"
+              className={`certificates__button ${
+                clicked === button.link ? "certificates__btn-clicked " : ""
+              }`}
               onClick={() => setActiveImage(button.link)}
             >
               {button.title}

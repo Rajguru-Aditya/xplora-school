@@ -114,23 +114,23 @@ const testimonialThree = {
     {
       image: TestimonialThreeImageOne,
       title:
-        "Initially doubtful, but the eating plan from my Skillhub health coach really works I feel better than I have in years",
+        "Initially doubtful, but the eating plan from my Xplora health coach really works I feel better than I have in years",
       name: "David Bergstrom",
-      designation: "— Skillhub Member, Austin",
+      designation: "— Xplora Member, Austin",
     },
     {
       image: TestimonialThreeImageTow,
       title:
-        "David doubtful, but the eating plan from my Skillhub health coach really works I feel better than I have in years",
+        "David doubtful, but the eating plan from my Xplora health coach really works I feel better than I have in years",
       name: "Robartho Filson",
-      designation: " — Skillhub Member, Austin",
+      designation: " — Xplora Member, Austin",
     },
     {
       image: TestimonialThreeImageThree,
       title:
-        " David doubtful, but the eating plan from my Skillhub health coach really works I feel better than I have in years",
+        " David doubtful, but the eating plan from my Xplora health coach really works I feel better than I have in years",
       name: "Lisandro Casiano",
-      designation: "— Skillhub Member, Austin",
+      designation: "— Xplora Member, Austin",
     },
   ],
   shapeOne: TestimonialThreeShapeOne,

@@ -15,7 +15,7 @@ const footerOne = {
   playIcon: PlayStoreIcon,
   playTitle: "Play Store",
   playLink: "#",
-  copyrightText: "© Skillhub 2024, Designed",
+  copyrightText: "© Xplora 2024, Designed",
   companyName: "Academine",
   copyrightLink: "https://academine.com",
   widgets: [

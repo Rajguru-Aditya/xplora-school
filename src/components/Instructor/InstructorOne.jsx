@@ -2,6 +2,9 @@ import { instructorOne as data } from "@/data/instructor";
 import InstructorCardOne from "@/components/Card/Instructor/InstructorCardOne";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import ShapeLeft from "/assets/imgs/shape/shape-left.webp";
+import ShapeRight from "/assets/imgs/shape/shape-right.webp";
+import ShapeBottom from "/assets/imgs/shape/shape-btm.webp";
 
 InstructorOne.propTypes = {
   type: PropTypes.string,
@@ -18,28 +21,13 @@ export default function InstructorOne({ type = "", spacingClass = "pt-110" }) {
               {data.title.sliceOne} <span>{data.title.sliceTwo}</span>
             </h2>
           )}
-          {data.moreBtn && (
-            <div className="fade-slide right show-lg">
-              <Link
-                className="btn-veiwMore btn-hover-shadow"
-                to={data.moreBtn.link}
-              >
-                {data.moreBtn.title}
-                <img
-                  className="btn-arrow-icon"
-                  src={data.moreBtn.icon}
-                  alt="Icon"
-                />
-              </Link>
-            </div>
-          )}
         </div>
         {data.instructors && data.instructors.length > 0 && (
-          <div className="row gy-4">
+          <div className="team__usp-item-container">
             {data.instructors.map((instructor, index) => (
               <div
                 key={index}
-                className={`col-xl-3 col-lg-3 col-md-6 ${instructor.animation.classes}`}
+                className={`team__usp-item ${instructor.animation.classes}`}
                 data-delay={instructor.animation.delay}
                 data-duration={instructor.animation.duration}
               >
@@ -49,6 +37,13 @@ export default function InstructorOne({ type = "", spacingClass = "pt-110" }) {
           </div>
         )}
       </div>
+      <img className="hero__shape-left moveBottom" src={ShapeLeft} alt="Icon" />
+      <img
+        className="hero__shape-right moveBottom"
+        src={ShapeRight}
+        alt="Icon"
+      />
+      <img className="hero__shape-btm moveLeft" src={ShapeBottom} alt="Icon" />
     </section>
   );
 }

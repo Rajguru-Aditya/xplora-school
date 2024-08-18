@@ -124,22 +124,22 @@ const megaMenuOne = [
 const menus = [
   {
     name: "Home",
-    link: "#",
-    megaMenu: megaMenuOne,
-    subMenus: [
-      {
-        link: "/online-course",
-        name: "Online Course",
-      },
-      {
-        link: "/children-education",
-        name: "Kids Education",
-      },
-      {
-        link: "/health-coach",
-        name: "Health Course",
-      },
-    ],
+    link: "/",
+    // megaMenu: megaMenuOne,
+    // subMenus: [
+    //   {
+    //     link: "/online-course",
+    //     name: "Online Course",
+    //   },
+    //   {
+    //     link: "/children-education",
+    //     name: "Kids Education",
+    //   },
+    //   {
+    //     link: "/health-coach",
+    //     name: "Health Course",
+    //   },
+    // ],
   },
   {
     name: "About",
@@ -150,100 +150,82 @@ const menus = [
     link: "#",
     subMenus: [
       {
-        name: "Course List",
-        link: "/courses",
+        name: "UI/UX Design",
+        link: "/courses-detail?category=UI/UX Design",
       },
       {
-        name: "Course Detail",
-        link: "/course-detail",
+        name: "Social Media Marketing",
+        link: "/courses-detail?category=Marketing",
       },
       {
-        name: "Course Filter",
-        link: "/course-filter",
-      },
-    ],
-  },
-  {
-    name: "Pages",
-    link: "#",
-    subMenus: [
-      {
-        name: "Instructor",
-        link: "/instructors",
-      },
-      {
-        name: "Instructor Detail",
-        link: "/instructor-detail",
-      },
-      {
-        name: "404",
-        link: "not-found",
+        name: "Data Analyst",
+        link: "/courses-detail?category=Data Analyst",
       },
     ],
   },
   {
     name: "Blog",
-    link: "#",
-    subMenus: [
-      {
-        name: "Blog List",
-        link: "/blogs",
-      },
-      {
-        name: "Blog Sidebar",
-        link: "#",
-        menus: [
-          {
-            name: "Right Sidebar",
-            link: "/blogs",
-          },
-          {
-            name: "Left Sidebar",
-            link: "/blog-left-sidebar",
-          },
-        ],
-      },
-      {
-        name: "Blog Layout",
-        link: "#",
-        menus: [
-          {
-            name: "1 Column",
-            link: "/blog-column-one",
-          },
-          {
-            name: "2 Column",
-            link: "/blog-column-two",
-          },
-          {
-            name: "3 Column",
-            link: "/blog-column-three",
-          },
-          {
-            name: "4 Column",
-            link: "/blog-column-four",
-          },
-        ],
-      },
-      {
-        name: "Blog Details",
-        link: "#",
-        menus: [
-          {
-            name: "Right Sidebar",
-            link: "/blog-detail-right-sidebar",
-          },
-          {
-            name: "Left Sidebar",
-            link: "/blog-detail-left-sidebar",
-          },
-          {
-            name: "Without Sidebar",
-            link: "/blog-detail",
-          },
-        ],
-      },
-    ],
+    link: "/",
+    // subMenus: [
+    //   {
+    //     name: "Blog List",
+    //     link: "/blogs",
+    //   },
+    //   {
+    //     name: "Blog Sidebar",
+    //     link: "/",
+    //     // menus: [
+    //     //   {
+    //     //     name: "Right Sidebar",
+    //     //     link: "/blogs",
+    //     //   },
+    //     //   {
+    //     //     name: "Left Sidebar",
+    //     //     link: "/blog-left-sidebar",
+    //     //   },
+    //     // ],
+    //   },
+    //   {
+    //     name: "Blog Layout",
+    //     link: "#",
+    //     menus: [
+    //       {
+    //         name: "1 Column",
+    //         link: "/blog-column-one",
+    //       },
+    //       {
+    //         name: "2 Column",
+    //         link: "/blog-column-two",
+    //       },
+    //       {
+    //         name: "3 Column",
+    //         link: "/blog-column-three",
+    //       },
+    //       {
+    //         name: "4 Column",
+    //         link: "/blog-column-four",
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: "Blog Details",
+    //     link: "#",
+    //     menus: [
+    //       {
+    //         name: "Right Sidebar",
+    //         link: "/blog-detail-right-sidebar",
+    //       },
+    //       {
+    //         name: "Left Sidebar",
+    //         link: "/blog-detail-left-sidebar",
+    //       },
+    //       {
+    //         name: "Without Sidebar",
+    //         link: "/blog-detail",
+    //       },
+    //     ],
+    //   },
+    // ],
   },
   {
     name: "Conatct",

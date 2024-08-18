@@ -1,7 +1,7 @@
 const certificates = {
   title: "Earn Industry-Recognized Certification",
   subtitle:
-    "At Career Ease, we believe in validating your skills and achievements with industry-recognized certifications. Our certification programs are designed to demonstrate your expertise and make you stand out in the job market.",
+    "At Xplora School, we believe in validating your skills and achievements with industry-recognized certifications. Our certification programs are designed to demonstrate your expertise and make you stand out in the job market.",
   buttons: [
     {
       title: "HubSpot Social Media Strategy Certificate",

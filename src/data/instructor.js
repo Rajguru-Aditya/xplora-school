@@ -16,16 +16,144 @@ import InstructorOneImageSeven from "/assets/imgs/team/team-7.webp";
 import InstructorOneImageEight from "/assets/imgs/team/team-8.webp";
 
 const instructorOne = {
+  // title: {
+  //   sliceOne: "Meet our best",
+  //   sliceTwo: "Instructors",
+  // },
+  // instructors: [
+  //   {
+  //     image: InstructorOneImageOne,
+  //     shareIcon: ShareIcon,
+  //     title: "Lee Zulauf",
+  //     designation: "UI/UX Designer Expart",
+  //     socials: [
+  //       {
+  //         icon: YoutubeIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkedinIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: TwitterIcon,
+  //         link: "#",
+  //       },
+  //     ],
+  //     animation: {
+  //       classes: "fade-slide bottom",
+  //       delay: "0.4",
+  //       duration: "1.5",
+  //     },
+  //   },
+  //   {
+  //     image: InstructorOneImageTwo,
+  //     shareIcon: ShareIcon,
+  //     title: "Josh Zieme",
+  //     designation: "Webflow Expart",
+  //     socials: [
+  //       {
+  //         icon: YoutubeIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkedinIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: TwitterIcon,
+  //         link: "#",
+  //       },
+  //     ],
+  //     animation: {
+  //       classes: "fade-slide bottom",
+  //       delay: "0.6",
+  //       duration: "1.5",
+  //     },
+  //   },
+  //   {
+  //     image: InstructorOneImageThree,
+  //     shareIcon: ShareIcon,
+  //     title: "Annie Dare",
+  //     designation: "WordPress Expert",
+  //     socials: [
+  //       {
+  //         icon: YoutubeIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkedinIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: TwitterIcon,
+  //         link: "#",
+  //       },
+  //     ],
+  //     animation: {
+  //       classes: "fade-slide bottom",
+  //       delay: "0.8",
+  //       duration: "1.5",
+  //     },
+  //   },
+  //   {
+  //     image: InstructorOneImageFour,
+  //     shareIcon: ShareIcon,
+  //     title: "Tim Rosenbaum",
+  //     designation: "Web Design Expart",
+  //     socials: [
+  //       {
+  //         icon: YoutubeIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: LinkedinIcon,
+  //         link: "#",
+  //       },
+  //       {
+  //         icon: TwitterIcon,
+  //         link: "#",
+  //       },
+  //     ],
+  //     animation: {
+  //       classes: "fade-slide bottom",
+  //       delay: "1.0",
+  //       duration: "1.5",
+  //     },
+  //   },
+  // ],
+  // moreBtn: {
+  //   title: "View more",
+  //   icon: BtnIcon,
+  //   link: "instructors",
+  // },
   title: {
-    sliceOne: "Meet our best",
-    sliceTwo: "Instructors",
+    sliceOne: "Why You Should Join",
+    sliceTwo: "Xplora School?",
   },
   instructors: [
     {
       image: InstructorOneImageOne,
       shareIcon: ShareIcon,
-      title: "Lee Zulauf",
-      designation: "UI/UX Designer Expart",
+      title: "30 Students per Batch",
+      designation:
+        "Enjoy personalized attention and a collaborative learning environment with just 30 students per batch.",
       socials: [
         {
           icon: YoutubeIcon,
@@ -53,8 +181,9 @@ const instructorOne = {
     {
       image: InstructorOneImageTwo,
       shareIcon: ShareIcon,
-      title: "Josh Zieme",
-      designation: "Webflow Expart",
+      title: "Hybrid Mode with Offline Projects",
+      designation:
+        "Benefit from a hybrid learning approach featuring 2 hands-on, project-based classes held offline each month.",
       socials: [
         {
           icon: YoutubeIcon,
@@ -82,8 +211,9 @@ const instructorOne = {
     {
       image: InstructorOneImageThree,
       shareIcon: ShareIcon,
-      title: "Annie Dare",
-      designation: "WordPress Expert",
+      title: "Guaranteed Placement or Project",
+      designation:
+        "Complete the course and secure a job placement or project opportunity.",
       socials: [
         {
           icon: YoutubeIcon,
@@ -108,41 +238,7 @@ const instructorOne = {
         duration: "1.5",
       },
     },
-    {
-      image: InstructorOneImageFour,
-      shareIcon: ShareIcon,
-      title: "Tim Rosenbaum",
-      designation: "Web Design Expart",
-      socials: [
-        {
-          icon: YoutubeIcon,
-          link: "#",
-        },
-        {
-          icon: LinkIcon,
-          link: "#",
-        },
-        {
-          icon: LinkedinIcon,
-          link: "#",
-        },
-        {
-          icon: TwitterIcon,
-          link: "#",
-        },
-      ],
-      animation: {
-        classes: "fade-slide bottom",
-        delay: "1.0",
-        duration: "1.5",
-      },
-    },
   ],
-  moreBtn: {
-    title: "View more",
-    icon: BtnIcon,
-    link: "instructors",
-  },
 };
 
 const instructorListOne = {

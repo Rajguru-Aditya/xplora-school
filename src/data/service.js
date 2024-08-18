@@ -6,7 +6,7 @@ import ServiceOneImageFour from "/assets/imgs/icon/skill-4.webp";
 const serviceOne = {
   title: {
     sliceOne: "Why learn with",
-    sliceTwo: "Skillhub?",
+    sliceTwo: "Xplora?",
   },
   services: [
     {
@@ -51,7 +51,7 @@ const serviceOne = {
 const serviceTwo = {
   title: {
     sliceOne: "Tools You will Learn",
-    sliceTwo: "Skillhub?",
+    sliceTwo: "Xplora?",
   },
   services: [
     {

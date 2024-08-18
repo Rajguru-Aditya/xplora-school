@@ -25,7 +25,7 @@ export default function HeaderOne() {
           <Link to="/">
             <img src={header.logo} alt="Logo" />
           </Link>
-          <div className="header__select-wrap">
+          {/* <div className="header__select-wrap">
             <span className="header__circel-icon">
               <i className="ph ph-circles-four"></i>
               All Categories
@@ -42,12 +42,12 @@ export default function HeaderOne() {
                 ))}
               </ul>
             )}
-          </div>
+          </div> */}
         </div>
         {/* <!-- Header menu  --> */}
         <MenuOne data={data} />
         {/* <!-- Header social  --> */}
-        <div className="header__social">
+        {/* <div className="header__social">
           <SearchOne />
           <div className="header__shopicon">
             <span className="header__cartIcon">
@@ -55,7 +55,7 @@ export default function HeaderOne() {
             </span>
             <span className="header__notification">0</span>
           </div>
-        </div>
+        </div> */}
         {/* <!-- Offcanvas icon  --> */}
         <div className="offcanvas-icon" onClick={toggleMobileMenu}>
           <i className="ph ph-list"></i>
