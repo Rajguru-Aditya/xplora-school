@@ -182,13 +182,13 @@
     .section-subtitle {
       width: 100%;
       text-align: left;
+      font-size: 18px;
+      font-weight: 400;
 
       span {
         display: block;
       }
 
-      font-size: 18px;
-      font-weight: 400;
 
       @media #{$md} {
         font-size: 14px;

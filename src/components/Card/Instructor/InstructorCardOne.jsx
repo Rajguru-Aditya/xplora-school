@@ -17,8 +17,8 @@ export default function InstructorCardOne({ type, instructor }) {
       <hr
         style={{
           width: "100%",
-          height: "2px",
-          backgroundColor: "#fff",
+          height: "1px",
+          backgroundColor: "#ccc",
           border: "none",
           margin: "0.5rem 0",
           opacity: "1",

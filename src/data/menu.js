@@ -158,8 +158,8 @@ const menus = [
         link: "/courses-detail?category=Marketing",
       },
       {
-        name: "Data Analyst",
-        link: "/courses-detail?category=Data Analyst",
+        name: "Data Analytics",
+        link: "/courses-detail?category=Data Analytics",
       },
     ],
   },

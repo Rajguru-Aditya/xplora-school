@@ -153,6 +153,78 @@ const heroTwo = {
   shapeEight: HeroTwoShapeEight,
 };
 
+const heroUI = {
+  title: {
+    sliceOne: "UI/UX Design Course",
+    sliceTwo: "Courses",
+    sliceThree: "Design Engaging User Experiences",
+    sliceFour: "Skills",
+  },
+  description:
+    "A well-designed user experience can make or break a product. Our UI/UX Design course will equip you with the skills to create intuitive and engaging digital interfaces that users love.",
+  link: "courses",
+  imageOne: HeroTwoImageOne,
+  imageTwo: HeroTwoImageTwo,
+  badgeImage: BadgeImage,
+  badgeTextIcon: BadgeTextIcon,
+  shapeOne: HeroTwoShapeOne,
+  shapeTwo: HeroTwoShapeTwo,
+  shapeThree: HeroTwoShapeThree,
+  shapeFour: HeroTwoShapeFour,
+  shapeFive: HeroTwoShapeFive,
+  shapeSix: HeroTwoShapeSix,
+  shapeSeven: HeroTwoShapeSeven,
+  shapeEight: HeroTwoShapeEight,
+};
+
+const heroMarketing = {
+  title: {
+    sliceOne: "Digital Marketing Course",
+    sliceTwo: "Courses",
+    sliceThree: "Design Engaging User Experiences",
+    sliceFour: "Skills",
+  },
+  description:
+    "A well-designed user experience can make or break a product. Our UI/UX Design course will equip you with the skills to create intuitive and engaging digital interfaces that users love.",
+  link: "courses",
+  imageOne: HeroTwoImageOne,
+  imageTwo: HeroTwoImageTwo,
+  badgeImage: BadgeImage,
+  badgeTextIcon: BadgeTextIcon,
+  shapeOne: HeroTwoShapeOne,
+  shapeTwo: HeroTwoShapeTwo,
+  shapeThree: HeroTwoShapeThree,
+  shapeFour: HeroTwoShapeFour,
+  shapeFive: HeroTwoShapeFive,
+  shapeSix: HeroTwoShapeSix,
+  shapeSeven: HeroTwoShapeSeven,
+  shapeEight: HeroTwoShapeEight,
+};
+
+const heroAnalytics = {
+  title: {
+    sliceOne: "Data Analytics Course",
+    sliceTwo: "Courses",
+    sliceThree: "Design Engaging User Experiences",
+    sliceFour: "Skills",
+  },
+  description:
+    "Objective: Equip students with the foundational skills and knowledge to perform data analytics, including data manipulation, visualization, statistical analysis, and the basics of machine learning.",
+  link: "courses",
+  imageOne: HeroTwoImageOne,
+  imageTwo: HeroTwoImageTwo,
+  badgeImage: BadgeImage,
+  badgeTextIcon: BadgeTextIcon,
+  shapeOne: HeroTwoShapeOne,
+  shapeTwo: HeroTwoShapeTwo,
+  shapeThree: HeroTwoShapeThree,
+  shapeFour: HeroTwoShapeFour,
+  shapeFive: HeroTwoShapeFive,
+  shapeSix: HeroTwoShapeSix,
+  shapeSeven: HeroTwoShapeSeven,
+  shapeEight: HeroTwoShapeEight,
+};
+
 import HeroThreeShapeOne from "/assets/imgs/shape/banner-6-1.webp";
 import HeroThreeShapeTwo from "/assets/imgs/shape/banner-6-2.webp";
 import HeroThreeShapeThree from "/assets/imgs/shape/banner-6-3.webp";
@@ -185,4 +257,13 @@ const heroFour = {
   descriptionTwo:
     "We believe in putting our clients at the heart of everything we do. Your success is our success, and we are committed to delivering exceptional service tailored to your unique.",
 };
-export { heroOne, innerHeroOne, heroTwo, heroThree, heroFour };
+export {
+  heroOne,
+  innerHeroOne,
+  heroTwo,
+  heroThree,
+  heroFour,
+  heroUI,
+  heroMarketing,
+  heroAnalytics,
+};

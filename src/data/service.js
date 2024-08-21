@@ -105,6 +105,205 @@ const serviceTwo = {
   ],
 };
 
+const serviceUI = {
+  title: {
+    sliceOne: "Tools You will Learn",
+    sliceTwo: "Xplora?",
+  },
+  services: [
+    {
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+  ],
+};
+
+const serviceMarketing = {
+  title: {
+    sliceOne: "Tools You will Learn",
+    sliceTwo: "Xplora?",
+  },
+  title2: "AI Tools You will Learn",
+  services: [
+    {
+      icon: ServiceOneImageTwo,
+      title: "Google Analytics",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Google Search Console",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "SEMrush",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Facebook Ads",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageTwo,
+      title: "Google Ads",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Canva",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "Buffer",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Mailchimp",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Linkedin Ads",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+  ],
+
+  aiServices: [
+    {
+      icon: ServiceOneImageTwo,
+      title: "ChatGPT",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Perplexity",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "Copy.ai",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+  ],
+};
+
+const serviceAnalytics = {
+  title: {
+    sliceOne: "Tools You will Learn",
+    sliceTwo: "Xplora?",
+  },
+  services: [
+    {
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageTwo,
+      title: "Figma",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageOne,
+      title: "Sketch",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageThree,
+      title: "InVision",
+      animation: { name: "fade-slide bottom" },
+      classNames: "border-b3",
+    },
+    {
+      icon: ServiceOneImageFour,
+      title: "Adobe Illustrator",
+      animation: { name: "fade-slide top" },
+      classNames: "border-b3",
+    },
+  ],
+};
+
 import EmpowerIcon from "/assets/imgs/icon/empower.webp";
 import SkillIcon from "/assets/imgs/icon/skills.webp";
 import ProfitIcon from "/assets/imgs/icon/profit.webp";
@@ -152,4 +351,11 @@ const serviceThree = {
   ],
 };
 
-export { serviceOne, serviceTwo, serviceThree };
+export {
+  serviceOne,
+  serviceTwo,
+  serviceThree,
+  serviceUI,
+  serviceMarketing,
+  serviceAnalytics,
+};

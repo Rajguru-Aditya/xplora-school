@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import CtaOne from "@/components/CTA/CtaOne";
 import CourseDetailOne from "@/components/CourseDetail/CourseDetailOne";
 import LayoutOne from "@/components/Layout/LayoutOne";
@@ -13,21 +14,33 @@ import Certificates from "@/components/Certificates/Certificates";
 import InstructorOne from "@/components/Instructor/InstructorOne";
 
 export default function CourseDetails() {
+  const [currentCourse, setCurrentCourse] = useState(null);
+
+  useEffect(() => {
+    // Fetch the course name from params
+
+    let params = window.location.pathname?.split("/").pop();
+
+    console.log(params);
+
+    setCurrentCourse(params);
+  }, []);
+
   return (
     <LayoutOne>
       <main>
-        <HeroTwo />
-        <CourseHighlights />
-        <ServiceTwo />
-        <InstructorOne />
-        <PlacementGuarantee />
-        <PartnerTwo />
-        <Certificates />
-        <CourseTwo />
-        {/* <CourseDetailOne /> */}
-        <CourseFeeOne />
-        <BlogTwo />
-        <CtaOne />
+        <HeroTwo currentCourse={currentCourse} />
+        <InstructorOne currentCourse={currentCourse} />
+        <CourseHighlights currentCourse={currentCourse} />
+        <ServiceTwo currentCourse={currentCourse} />
+        <PlacementGuarantee currentCourse={currentCourse} />
+        <PartnerTwo currentCourse={currentCourse} />
+        <Certificates currentCourse={currentCourse} />
+        <CourseTwo currentCourse={currentCourse} />
+        {/* <CourseDetailOne currentCourse={currentCourse}/> */}
+        <CourseFeeOne currentCourse={currentCourse} />
+        <BlogTwo currentCourse={currentCourse} />
+        <CtaOne currentCourse={currentCourse} />
       </main>
     </LayoutOne>
   );

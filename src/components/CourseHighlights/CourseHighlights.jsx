@@ -3,12 +3,17 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Grid, Typography } from "@mui/material";
-import { courseHighlightsUI } from "../../data/course";
+import {
+  courseHighlightsAnalytics,
+  courseHighlightsMarketing,
+  courseHighlightsUI,
+} from "../../data/course";
 import { useEffect, useState } from "react";
 
-const CourseHighlights = () => {
+const CourseHighlights = ({ currentCourse }) => {
   const [expanded, setExpanded] = useState(false);
   const [screenSize, setScreenSize] = useState(window.innerWidth);
+  const [accordionData, setAccordionData] = useState([]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -23,6 +28,17 @@ const CourseHighlights = () => {
     setExpanded(expanded === index ? false : index);
   };
 
+  useEffect(() => {
+    if (currentCourse === "uidesign") {
+      setAccordionData(courseHighlightsUI.accordion);
+    } else if (currentCourse === "marketing") {
+      setAccordionData(courseHighlightsMarketing.accordion);
+    } else if (currentCourse === "analytics") {
+      setAccordionData(courseHighlightsAnalytics.accordion);
+    } else {
+      setAccordionData(courseHighlightsUI.accordion);
+    }
+  }, [currentCourse]);
   return (
     <div className="course-highlights">
       <p className="course-highlights__title">Course Highlights</p>
@@ -56,68 +72,73 @@ const CourseHighlights = () => {
           }}
           className="course-highlight__accordion-inner-grid"
         >
-          {courseHighlightsUI.accordion.map((highlight, index) => (
-            <Accordion
-              className={`course-highlights__accordion ${highlight.animation.name}`}
-              key={index}
-              disableGutters={true}
-              elevation={0}
-              sx={{
-                "&:before": {
-                  display: "none",
-                },
-              }}
-              expanded={expanded === index}
-              onChange={() => toggleAccordion(index)}
-            >
-              <AccordionSummary
-                expandIcon={
-                  <ExpandMoreIcon
-                    style={{
-                      color: "white",
-                    }}
-                  />
-                }
+          {accordionData?.length > 0 &&
+            accordionData?.map((highlight, index) => (
+              <Accordion
+                className={`course-highlights__accordion ${highlight.animation.name}`}
+                key={index}
+                disableGutters={true}
+                elevation={0}
+                sx={{
+                  "&:before": {
+                    display: "none",
+                  },
+                }}
+                expanded={expanded === index}
+                onChange={() => toggleAccordion(index)}
               >
-                <Typography
-                  variant="h6"
-                  className="course-highlights__accordion-title"
-                  fontWeight={700}
-                  textAlign={"left"}
-                  fontSize={screenSize > 700 ? "1.3rem" : "1rem"}
+                <AccordionSummary
+                  expandIcon={
+                    <ExpandMoreIcon
+                      style={{
+                        color: "white",
+                      }}
+                    />
+                  }
                 >
-                  {highlight.title?.length > 45 && !expanded
-                    ? highlight.title?.substring(
-                        0,
-                        screenSize > 700 ? 45 : 25
-                      ) + "..."
-                    : highlight.title}
-                </Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Typography
-                  className="course-highlights__accordion-content"
-                  textAlign={"left"}
-                  fontWeight={400}
-                >
-                  <ul
-                    style={{
-                      listStyleType: "disc",
-                      padding: 0,
-                      lineHeight: "3rem",
-                    }}
+                  <Typography
+                    variant="h6"
+                    className="course-highlights__accordion-title"
+                    fontWeight={700}
+                    textAlign={"left"}
+                    fontSize={screenSize > 700 ? "1.3rem" : "1rem"}
                   >
-                    {highlight.content.map((item, index) => (
-                      <li key={index}>• {item}</li>
-                    ))}
-                  </ul>
-                </Typography>
-                {/* <button className="course-highlights__accordion-btn">
-                      {highlight.button}
-                    </button> */}
-              </AccordionDetails>
-            </Accordion>
-          ))}
+                    {highlight.title?.length > 45 && expanded !== index
+                      ? highlight.title?.substring(
+                          0,
+                          screenSize > 700 ? 45 : 25
+                        ) + "..."
+                      : highlight.title}
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Typography
+                    className="course-highlights__accordion-content"
+                    textAlign={"left"}
+                    fontWeight={400}
+                  >
+                    <ul
+                      style={{
+                        listStyleType: "disc",
+                        padding: 0,
+                        lineHeight: "3rem",
+                      }}
+                    >
+                      {highlight.content.map((item, index) => (
+                        <li key={index}>• {item}</li>
+                      ))}
+                    </ul>
+                  </Typography>
+                  {currentCourse === "marketing" && (
+                    <div className="course-highlights__accordion-btn">
+                      <p>Project:</p>
+                      <br />
+                      {highlight.project}
+                    </div>
+                  )}
+                </AccordionDetails>
+              </Accordion>
+            ))}
         </Grid>
         {/* <Grid
             item

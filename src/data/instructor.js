@@ -151,9 +151,9 @@ const instructorOne = {
     {
       image: InstructorOneImageOne,
       shareIcon: ShareIcon,
-      title: "30 Students per Batch",
+      title: "Exclusive 30-Student Classes",
       designation:
-        "Enjoy personalized attention and a collaborative learning environment with just 30 students per batch.",
+        "We commit to giving you personalized attention in our intimate 30-student classrooms for optimal learning and support.",
       socials: [
         {
           icon: YoutubeIcon,
@@ -181,9 +181,9 @@ const instructorOne = {
     {
       image: InstructorOneImageTwo,
       shareIcon: ShareIcon,
-      title: "Hybrid Mode with Offline Projects",
+      title: "Two Monthly Offline Sessions",
       designation:
-        "Benefit from a hybrid learning approach featuring 2 hands-on, project-based classes held offline each month.",
+        "We guarantee two engaging offline classes each month with your instructor, blending online learning with practical experience.",
       socials: [
         {
           icon: YoutubeIcon,
@@ -211,9 +211,9 @@ const instructorOne = {
     {
       image: InstructorOneImageThree,
       shareIcon: ShareIcon,
-      title: "Guaranteed Placement or Project",
+      title: "100% Job or Client Guaranteed",
       designation:
-        "Complete the course and secure a job placement or project opportunity.",
+        "We promise either a job placement or our dedicated support to help you secure your first client—your success is our priority.",
       socials: [
         {
           icon: YoutubeIcon,

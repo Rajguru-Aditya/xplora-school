@@ -34,8 +34,6 @@ export default function CourseOne() {
           )}
 
           <p className="section-subtitle move-line-3d">{data.subtitle}</p>
-          {/* <!-- Tab button   --> */}
-          {/* <!-- Tab button   --> */}
         </div>
         <div className="row course__wrapper fade-slide bottom">
           {data.courses.map((course, index) => (
@@ -47,23 +45,6 @@ export default function CourseOne() {
             </div>
           ))}
         </div>
-        {/* {data.more && (
-          <div className="course__btm">
-            <Link
-              className="btn-primary btn-hover-shadow"
-              to={data.more.link ?? "#"}
-            >
-              {data.more.name}
-              {data.more.icon && (
-                <img
-                  className="btn-arrow-icon"
-                  src={data.more.icon}
-                  alt="Icon"
-                />
-              )}
-            </Link>
-          </div>
-        )} */}
       </div>
     </section>
   );

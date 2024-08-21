@@ -51,7 +51,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "Web Development For Beginners How To Use HTML5",
       price: "$19.00",
-      link: "course-detail",
+      link: "course-detail/uidesign",
       filterClass: "trending",
       categories: [
         {
@@ -85,7 +85,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "Crafting User-Friendly Interfaces Design",
       price: "$9.00",
-      link: "course-detail",
+      link: "course-detail/marketing",
       filterClass: "trending",
       categories: [
         {
@@ -119,7 +119,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "Responsive Web Design: Creating Sites for Any Device",
       price: "$15.00",
-      link: "course-detail",
+      link: "course-detail/analytics",
       filterClass: "popular",
       categories: [
         {
@@ -598,8 +598,15 @@ const courseHighlightsMarketing = {
   title: "Course Highlights",
   accordion: [
     {
-      title: "Accordion 1",
-      content: "Content for Accordion 1",
+      title: "1. Digital Marketing Foundations: Your First Steps",
+      content: [
+        "Introduction to Digital Marketing and Key Concepts",
+        "Marketing Channels Overview (SEO, SEM, Social Media, Email)",
+        "Market Research and Understanding Consumer Behavior",
+        "Identifying Target Audience and Creating Buyer Personas",
+      ],
+      project:
+        "Conduct a brand audit and develop a strategic marketing plan to enhance its online presence. Focus on audience targeting and channel selection.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -607,8 +614,14 @@ const courseHighlightsMarketing = {
       },
     },
     {
-      title: "Accordion 2",
-      content: "Content for Accordion 2",
+      title: "2. Create and Optimize Your Website for Search Engines",
+      content: [
+        "Website Creation Essentials (CMS, Design Principles, User Experience)",
+        "On-Page SEO Best Practices (Keyword Research, Meta Tags, Content Optimization)",
+        "Technical SEO (Site Speed, Mobile Optimization, Sitemap Configuration)",
+      ],
+      project:
+        "Build a business website, implement SEO best practices, and optimize for target keywords. Monitor performance using analytics tools.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -616,8 +629,19 @@ const courseHighlightsMarketing = {
       },
     },
     {
-      title: "Accordion 3",
-      content: "Content for Accordion 3",
+      title: "3. Mastering Paid Search and Google Ads",
+      content: [
+        "Introduction to Google Ads and SEM",
+        "Keyword Research, Campaign Planning, and Budgeting",
+        "Creating Effective Ad Copies and A/B Testing",
+        "Bidding Strategies, Ad Extensions, and Quality Score Optimization",
+        "Monitoring and Optimizing Campaign Performance",
+        "Analytics and Reporting: Tracking ROI",
+        "SEM Campaign Case Studies",
+        "Compliance, Policies, and Best Practices",
+      ],
+      project:
+        "Develop a Google Ads campaign for a product or service. Focus on keyword research, ad creation, and optimizing for better click-through and conversion rates.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -625,8 +649,19 @@ const courseHighlightsMarketing = {
       },
     },
     {
-      title: "Accordion 4",
-      content: "Content for Accordion 4",
+      title: "4. Organic Social Media: Growing Your Audience Without Ads",
+      content: [
+        "Social Media Strategy Development",
+        "Platform-Specific Marketing: Facebook, Instagram, LinkedIn, etc.",
+        "Creating Engaging Content: Visuals, Copywriting, and Scheduling",
+        "Community Building, Engagement, and Growth Tactics",
+        "Analytics and Performance Tracking for Organic Reach",
+        "Leveraging Influencers and User-Generated Content",
+        "Crisis Management on Social Media",
+        "Ethics and Compliance in Social Media Marketing",
+      ],
+      project:
+        "Create and execute a 30-day organic social media campaign for a brand. Plan content, drive engagement, and analyze key performance metrics.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -634,8 +669,17 @@ const courseHighlightsMarketing = {
       },
     },
     {
-      title: "Accordion 5",
-      content: "Content for Accordion 5",
+      title: "5. Advanced Social Media Advertising Strategies",
+      content: [
+        "Paid Social Media Advertising (Facebook Ads, Instagram Ads, LinkedIn Ads, etc.)",
+        "Audience Targeting and Segmentation Strategies",
+        "Designing High-Converting Ad Campaigns",
+        "Budgeting, Bidding, and Ad Scheduling",
+        "Analytics, Reporting, and A/B Testing",
+        "Retargeting Strategies and Lookalike Audiences",
+      ],
+      project:
+        "Design a paid social media campaign for a product launch. Develop ad creatives, set up targeting, and track conversions and ROI.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -643,8 +687,46 @@ const courseHighlightsMarketing = {
       },
     },
     {
-      title: "Accordion 6",
-      content: "Content for Accordion 6",
+      title: "6. Convert Leads with Strategic Sales Funnels",
+      content: [
+        "Lead Generation Techniques for Different Industries",
+        "Building and Managing Sales Funnels",
+        "Email Marketing Automation and Drip Campaigns",
+        "Customer Retention and Lifecycle Marketing",
+      ],
+      project:
+        "Build an automated lead nurturing funnel. Design email sequences for customer engagement, reselling, and retention, tracking performance over time.",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "7. Unlocking Insights with Google Analytics",
+      content: [
+        "Setting Up Google Analytics: Tracking Codes, Goals, and Events",
+        "Understanding Key Metrics and Reports: Audience, Acquisition, Behavior",
+        "E-commerce Tracking and Sales Funnels",
+        "Advanced Reporting and Dashboard Creation",
+      ],
+      project:
+        "Implement Google Analytics for an e-commerce site, set up conversion tracking, and deliver insights to optimize the customer journey and boost sales.",
+      button: "Project: Design a basic wireframe for a mobile app.",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "8. Building a Comprehensive Digital Marketing Strategy",
+      content: [
+        "Integrating Multiple Channels for a Cohesive Strategy",
+        "Budgeting, Resource Allocation, and Scaling Strategies",
+        "Industry Trends and Future-Proofing Skills",
+      ],
+      project:
+        "Design a comprehensive digital marketing blueprint, incorporating SEO, SEM, social media, and email marketing into a unified plan. Present a strategic roadmap for growth.",
       button: "Project: Design a basic wireframe for a mobile app.",
       animation: {
         name: "fade-slide bottom",
@@ -654,58 +736,127 @@ const courseHighlightsMarketing = {
   ],
 };
 
-const courseHighlightsAnalyst = {
+const courseHighlightsAnalytics = {
   title: "Course Highlights",
+  info: [
+    { title: "duration", details: "6 Months" },
+    {
+      title: "format",
+      details: "Online/Hybrid",
+    },
+    {
+      title: "average package",
+      details: "6LPA",
+    },
+    {
+      title: "placement guarantee",
+      details: "Get a Job in Data Analytics or Your Money Back!",
+    },
+  ],
   accordion: [
     {
-      title: "Accordion 1",
-      content: "Content for Accordion 1",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 1: Introduction to Data Analytics and Excel Basics",
+      content: [
+        "Overview of Data Analytics",
+        "Basic Excel Features: Functions, Formulas, and Data Entry",
+        "Data Cleaning and Visualization with Charts and Graphs",
+        "Introduction to PivotTables",
+      ],
+      button: "Project: Sales Data Analysis Using Excel",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
       },
     },
     {
-      title: "Accordion 2",
-      content: "Content for Accordion 2",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 2: Advanced Excel for Data Analysis",
+      content: [
+        "Advanced Excel Functions: VLOOKUP, IF, and Data Validation",
+        "Using Excel for Simple Statistical Analysis",
+        "Introduction to Excel Dashboards",
+      ],
+      button: "Project: Customer Data Segmentation",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
       },
     },
     {
-      title: "Accordion 3",
-      content: "Content for Accordion 3",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 3: SQL Basics for Data Analysis",
+      content: [
+        "Introduction to SQL and Databases",
+        "Writing Basic SQL Queries: SELECT, WHERE, and JOIN",
+        "Sorting and Filtering Data",
+        "Introduction to Aggregation (SUM, COUNT, AVG)",
+      ],
+      button: "Project: Product Sales Analysis Using SQL",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
       },
     },
     {
-      title: "Accordion 4",
-      content: "Content for Accordion 4",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 4: Intermediate SQL Techniques",
+      content: [
+        "More Advanced Joins and Subqueries",
+        "Grouping and Aggregating Data",
+        "Introduction to Data Filtering Techniques",
+      ],
+      button: "Project: E-commerce Data Insights with SQL",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
       },
     },
     {
-      title: "Accordion 5",
-      content: "Content for Accordion 5",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 5: Introduction to Python for Data Analysis",
+      content: [
+        "Basics of Python Programming",
+        "Working with Data Using Pandas",
+        "Cleaning and Manipulating Data in Python",
+        "Simple Data Visualization with Matplotlib",
+      ],
+      button: "Project: Analyzing Student Performance Data Using Python",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
       },
     },
     {
-      title: "Accordion 6",
-      content: "Content for Accordion 6",
-      button: "Project: Design a basic wireframe for a mobile app.",
+      title: "Module 6: Data Visualization with Power BI",
+      content: [
+        "Getting Started with Power BI",
+        "Connecting Data Sources and Creating Reports",
+        "Building Simple Visualizations and Dashboards",
+        "Sharing Reports",
+      ],
+      button: "Project: Sales Performance Dashboard Using Power BI",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 7: Practical Applications of Data Analytics",
+      content: [
+        "Real-Life Applications of Data Analytics",
+        "Understanding Business Problems and Choosing Tools",
+        "Simple Case Studies on Business Data Analysis",
+      ],
+      button: "Project: Basic Business Analytics Case Study",
+      animation: {
+        name: "fade-slide bottom",
+        delay: "0.2",
+      },
+    },
+    {
+      title: "Module 8: Capstone Project and Review",
+      content: [
+        "Recap of Key Concepts Across All Tools",
+        "Best Practices for Data Analysis",
+        "Presenting Findings and Insights",
+      ],
+      button: "Project: Final Project: Comprehensive Data Analysis",
       animation: {
         name: "fade-slide bottom",
         delay: "0.2",
@@ -721,5 +872,5 @@ export {
   courseFee,
   courseHighlightsUI,
   courseHighlightsMarketing,
-  courseHighlightsAnalyst,
+  courseHighlightsAnalytics,
 };
