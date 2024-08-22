@@ -151,15 +151,15 @@ const menus = [
     subMenus: [
       {
         name: "UI/UX Design",
-        link: "/courses-detail?category=UI/UX Design",
+        link: "/course-detail/uidesign",
       },
       {
         name: "Social Media Marketing",
-        link: "/courses-detail?category=Marketing",
+        link: "/course-detail/marketing",
       },
       {
         name: "Data Analytics",
-        link: "/courses-detail?category=Data Analytics",
+        link: "/course-detail/analytics",
       },
     ],
   },
