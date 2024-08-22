@@ -41,7 +41,7 @@ export default function CourseOne() {
               key={index}
               className={`col-xl-4 col-lg-4 col-md-6 course_item_wrapper ${course.filterClass}`}
             >
-              <CourseCardTwo course={course} />
+              <CourseCardTwo link={course?.link} />
             </div>
           ))}
         </div>

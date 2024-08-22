@@ -13,7 +13,8 @@ export default function FooterOne() {
               <img src={footer.logo} alt="Logo" />
             </Link>
           </div>
-          <div className="footer__btn d-flex align-items-center gap-3">
+          {/* BUTTONS */}
+          {/* <div className="footer__btn d-flex align-items-center gap-3">
             {footer.title && (
               <h3 className="footer__app-title">{footer.title}</h3>
             )}
@@ -35,9 +36,9 @@ export default function FooterOne() {
               />
               {footer.playTitle}
             </Link>
-          </div>
+          </div> */}
           {/* <!-- Footer social  -->  */}
-          {socials && socials.length > 0 && (
+          {/* {socials && socials.length > 0 && (
             <ul className="footer__socail">
               {socials.map((social, index) => (
                 <li key={index} className="footer__social-item">
@@ -47,14 +48,14 @@ export default function FooterOne() {
                 </li>
               ))}
             </ul>
-          )}
+          )} */}
           {/* <!-- Footer social  --> */}
         </div>
       </div>
       <div className="footer__btm">
         {/* <!-- Footer widget  --> */}
 
-        <div className="footer__widget">
+        {/* <div className="footer__widget">
           <h3 className="footer__widget-title">
             Get our newsletter, event invites, plus
             <span>Product Insights</span>
@@ -70,7 +71,7 @@ export default function FooterOne() {
               <PaperPlaneTilt size={18} />
             </button>
           </form>
-        </div>
+        </div> */}
 
         {/* <!-- Footer widget  --> */}
         {footer.widgets &&
@@ -94,7 +95,10 @@ export default function FooterOne() {
                         </span>
                       )}
                       {menu.link ? (
-                        <Link to={menu.link}>{menu.name}</Link>
+                        <Link to={`/${menu.link}`}>
+                          {console.log("link/", menu.link)}
+                          {menu.name}
+                        </Link>
                       ) : (
                         menu.name
                       )}

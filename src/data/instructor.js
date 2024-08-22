@@ -181,7 +181,7 @@ const instructorOne = {
     {
       image: InstructorOneImageTwo,
       shareIcon: ShareIcon,
-      title: "Two Monthly Offline Sessions",
+      title: "Hybrid Learning Model",
       designation:
         "We guarantee two engaging offline classes each month with your instructor, blending online learning with practical experience.",
       socials: [

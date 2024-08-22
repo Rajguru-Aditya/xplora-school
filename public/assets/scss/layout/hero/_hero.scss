@@ -140,20 +140,20 @@
 
   &__title {
     color: var(--white);
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 700;
     line-height: 1.1;
     max-width: 660px;
     @media #{$xxl} {
-      font-size: 46px;
+      font-size: 65px;
       max-width: 500px;
     }
     @media #{$lg} {
-      font-size: 46px;
+      font-size: 65px;
       max-width: 400px;
     }
     @media #{$md} {
-      font-size: 38px;
+      font-size: 46px;
       div {
         display: inline-block !important;
       }

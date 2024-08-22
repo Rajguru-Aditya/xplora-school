@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import ShapeLeft from "/assets/imgs/shape/shape-left.webp";
 import ShapeRight from "/assets/imgs/shape/shape-right.webp";
 import ShapeBottom from "/assets/imgs/shape/shape-btm.webp";
+import coverbg from "../../assets/imgs/gallery/coverbg.png";
 
 InstructorOne.propTypes = {
   type: PropTypes.string,
@@ -14,6 +15,7 @@ InstructorOne.propTypes = {
 export default function InstructorOne({ type = "", spacingClass = "pt-110" }) {
   return (
     <section className={`team__area${type ? `-${type}` : ""} ${spacingClass}`}>
+      <img src={coverbg} alt="cover image" className="team__bg-img" />
       <div className="container">
         <div className={`team__top-wrap${type ? `-${type}` : ""}`}>
           {data.title && (

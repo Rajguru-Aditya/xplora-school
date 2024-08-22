@@ -14,8 +14,8 @@ import SlideOneWidgetThree from "/assets/imgs/shape/hero-shape-3.webp";
 
 const heroOne = {
   title: {
-    sliceOne: "Explore tailored",
-    sliceTwo: "Courses",
+    sliceOne: "Shaping Futures with",
+    sliceTwo: "World-Class Learning.",
     sliceThree: "to enhance your professional",
     sliceFour: "Skills",
   },
@@ -185,7 +185,7 @@ const heroMarketing = {
     sliceFour: "Skills",
   },
   description:
-    "A well-designed user experience can make or break a product. Our UI/UX Design course will equip you with the skills to create intuitive and engaging digital interfaces that users love.",
+    "Unlock the power of the digital world with our Digital Marketing Mastery course at Xplora School. Designed for high school graduates, working professionals, and career switchers, this comprehensive program will equip you with cutting-edge skills to excel in today’s dynamic marketing landscape",
   link: "courses",
   imageOne: HeroTwoImageOne,
   imageTwo: HeroTwoImageTwo,
@@ -249,11 +249,11 @@ const heroThree = {
 
 const heroFour = {
   title: {
-    sliceOne: "Global leader in learning and instruction",
-    sliceTwo: "Marketplace",
+    sliceOne: "Shaping Futures with World-Class Learning.",
+    sliceTwo: "Xplora School:",
   },
   descriptionOne:
-    "Inspiring courses for the life you want to lead. Discover our fresh approach to a life-changing educational adventure.",
+    "At Xplora School, we are dedicated to transforming your educational journey into a pathway for real-world success. Whether you're a high school graduate, a working professional, or someone looking to switch careers, our courses in Digital Marketing, Data Analysis, and UI/UX are designed to equip you with the skills you need to excel. With small class sizes, hybrid learning options, and strong industry connections, we’re here to help you achieve your goals.",
   descriptionTwo:
     "We believe in putting our clients at the heart of everything we do. Your success is our success, and we are committed to delivering exceptional service tailored to your unique.",
 };

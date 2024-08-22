@@ -9,6 +9,7 @@ import {
   courseHighlightsUI,
 } from "../../data/course";
 import { useEffect, useState } from "react";
+import coverbg from "../../assets/imgs/gallery/coverbg.png";
 
 const CourseHighlights = ({ currentCourse }) => {
   const [expanded, setExpanded] = useState(false);
@@ -41,6 +42,11 @@ const CourseHighlights = ({ currentCourse }) => {
   }, [currentCourse]);
   return (
     <div className="course-highlights">
+      {/* <img
+        src={coverbg}
+        alt="cover image"
+        className="course-highlights__bg-img"
+      /> */}
       <p className="course-highlights__title">Course Highlights</p>
       <Grid
         // container

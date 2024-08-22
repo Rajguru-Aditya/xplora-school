@@ -1,15 +1,16 @@
 import { courseHighlightsUI as courseUIUX } from "@/data/course";
-import PartnerTwo from "@/components/Partner/PartnerTwo";
 
 import ShapeLeft from "/assets/imgs/shape/shape-left.webp";
 import ShapeRight from "/assets/imgs/shape/shape-right.webp";
 import ShapeBottom from "/assets/imgs/shape/shape-btm.webp";
 import HeroImg from "/assets/imgs/hero/heroImgNew.png";
+import coverImg1 from "../../assets/imgs/gallery/coverImg1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { heroAnalytics, heroMarketing, heroUI } from "../../data/hero";
+import coverbg from "../../assets/imgs/gallery/coverbg.png";
 
 export default function HeroOne({ currentCourse }) {
   const [heroData, setHeroData] = useState([]);
@@ -28,6 +29,7 @@ export default function HeroOne({ currentCourse }) {
 
   return (
     <section className="hero__area">
+      <img src={coverbg} alt="cover image" className="hero__bg-img" />
       <div className="hero__wrapper">
         <div className="hero__left">
           {heroData.title && (
@@ -59,7 +61,7 @@ export default function HeroOne({ currentCourse }) {
           )}
         </div>
         <div className="hero__right ">
-          <img className="hero__img-new" src={HeroImg} alt="Icon" />
+          <img className="hero__img-new" src={coverImg1} alt="Icon" />
         </div>
       </div>
       {/* Course Info */}
@@ -81,9 +83,6 @@ export default function HeroOne({ currentCourse }) {
           </div>
         </div>
       </div>
-
-      {/* Partners */}
-      <PartnerTwo currentCourse={currentCourse} />
       {/* <!-- Shape image  --> */}
       <img className="hero__shape-left moveBottom" src={ShapeLeft} alt="Icon" />
       <img

@@ -13,6 +13,7 @@
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
+    position: relative;
 
     @media #{$md} {
       padding: 190px 15px 100px;
@@ -47,9 +48,11 @@
     width: 100%;
     margin-top: 20px;
     flex-wrap: wrap;
+    z-index: 10;
   }
 
   &__course-info{
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +149,8 @@
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    height: 98vh;
+    height: 90vh;
+    position: relative;
 
     @media #{$xxl} {
       padding-left: 30px;
@@ -158,7 +162,7 @@
 
     @media #{$lg} {
       padding-left: 30px;
-      height: 92vh;
+      height: 80vh;
     }
 
     @media #{$md} {
@@ -168,11 +172,19 @@
     }
   }
 
+  &__bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   &__img-new {
     width: 80%;
     height: 100%;
-    margin-top: 80px;
     object-fit: contain;
+    margin-top: -100px;
 
     @media #{$md} {
       display: none;
@@ -196,6 +208,11 @@
   }
 
   &__right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     @media #{$sm} {
       display: none;
     }

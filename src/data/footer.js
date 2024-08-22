@@ -1,13 +1,14 @@
 import Logo from "/assets/imgs/logo/header-logo-white.svg";
 import AppleStoreIcon from "/assets/imgs/icon/apple-icon.svg";
 import PlayStoreIcon from "/assets/imgs/icon/play-stor.svg";
+import XploraLogo from "/assets/imgs/logo/xploraLogo.svg";
 
 import Mail from "/assets/imgs/icon/mail-dark.webp";
 import Phone from "/assets/imgs/icon/phone-dark.webp";
 import Location from "/assets/imgs/icon/location-dark.webp";
 
 const footerOne = {
-  logo: Logo,
+  logo: XploraLogo,
   title: "Our Apps",
   appleIcon: AppleStoreIcon,
   appleTitle: "Apps Store",
@@ -16,31 +17,23 @@ const footerOne = {
   playTitle: "Play Store",
   playLink: "#",
   copyrightText: "© Xplora 2024, Designed",
-  companyName: "Academine",
-  copyrightLink: "https://academine.com",
+  companyName: " Xplora",
+  copyrightLink: "#",
   widgets: [
     {
       title: "Courses",
       menus: [
         {
-          name: "Creative",
-          link: "courses",
+          name: "UI/UX Design",
+          link: "course-detail/uidesign",
         },
         {
-          name: "Animation",
-          link: "courses",
+          name: "Digital Marketing",
+          link: "course-detail/marketing",
         },
         {
-          name: "Web Design",
-          link: "courses",
-        },
-        {
-          name: "Business",
-          link: "courses",
-        },
-        {
-          name: "Marketing",
-          link: "courses",
+          name: "Data Analytics",
+          link: "course-detail/analytics",
         },
       ],
     },

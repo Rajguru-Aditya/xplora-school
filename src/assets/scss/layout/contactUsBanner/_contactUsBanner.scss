@@ -1,0 +1,46 @@
+.contact-us-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 100%;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.contact-us-banner__left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-banner__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-us-banner__subtitle {
+  font-size: 16px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.contact-us-banner__right-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+.contact-us-banner__contact-button {
+  color: white;
+  background-color: #005120;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}

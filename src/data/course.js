@@ -182,112 +182,13 @@ const courseTwo = {
   ],
   courses: [
     {
-      image:
-        "https://plus.unsplash.com/premium_photo-1661774861781-e540fbc29330?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      instructor: {
-        image: InstructorImageFive,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: " Aisha Patel, 31",
-      company: "Cognizant",
-      price: "$19.00",
-      link: "course-detail",
-      filterClass: "trending",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
+      link: "Ooqv0rnTyUc?si=GogId1ObkKv4iDvV",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      instructor: {
-        image: InstructorImageOne,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: " Aisha Patel, 31",
-      company: "Cognizant",
-      price: "$9.00",
-      link: "course-detail",
-      filterClass: "trending",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
+      link: "mJqFLu3KlMc?si=smnWM-a1ITuLsg3u",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1437572848259-df63caa1a552?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      instructor: {
-        image: InstructorImageTwo,
-        name: "Jackie Rippin",
-      },
-      wishlistIcon: WishListIcon,
-      title: " Aisha Patel, 31",
-      company: "Cognizant",
-      price: "$15.00",
-      link: "course-detail",
-      filterClass: "popular",
-      categories: [
-        {
-          name: "Trending",
-          link: "categories",
-        },
-      ],
-      meta: [
-        {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
-        },
-        {
-          icon: StatusIcon,
-          description: "Beginner",
-        },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
-      ],
-      enrollBtnText: "Enroll Now",
-      arrowIcon: RightArrowRedIcon,
+      link: "ih02fPSr_-o?si=uNAZL8FCQTF_qyHl",
     },
   ],
   more: {
@@ -406,10 +307,10 @@ const courseFee = {
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       features: [
         "Self-paced learning",
-        "24/7 access",
-        "Expert instructor",
-        "Real world projects",
-        "Access on all design tools and resources",
+        "Access to all design tools and resources",
+        "Interactive design projects and assignments",
+        "Online community support",
+        "Personalized feedback on design work",
       ],
       buttonText: "Apply Now",
       type: "Online",
@@ -419,11 +320,11 @@ const courseFee = {
       amount: "$200",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       features: [
-        "Self-paced learning",
-        "24/7 access",
-        "Expert instructor",
-        "Real world projects",
-        "Access on all design tools and resources",
+        "Weekly live design critiques and Q&A sessions",
+        "Hands-on workshops and real-world project collaboration",
+        "Access to all design tools and resources",
+        "Personalized feedback on design work",
+        "Networking opportunities with industry professionals",
       ],
       buttonText: "Apply Now",
       type: "Hybrid",
@@ -434,7 +335,7 @@ const courseFee = {
 const courseHighlightsUI = {
   title: "Course Highlights",
   info: [
-    { title: "duration", details: "6 Months" },
+    { title: "duration", details: "5 months" },
     {
       title: "format",
       details: "Online/Hybrid",
@@ -739,7 +640,7 @@ const courseHighlightsMarketing = {
 const courseHighlightsAnalytics = {
   title: "Course Highlights",
   info: [
-    { title: "duration", details: "6 Months" },
+    { title: "duration", details: "5 months" },
     {
       title: "format",
       details: "Online/Hybrid",

@@ -21,8 +21,8 @@ export default function HomePage() {
         <TestimonialOne />
         <ServiceOne />
         <InstructorOne />
-        <CounterOne />
-        <BlogOne />
+        {/* <CounterOne /> */}
+        {/* <BlogOne /> */}
         <CtaOne />
       </main>
     </LayoutOne>

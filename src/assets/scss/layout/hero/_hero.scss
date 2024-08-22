@@ -111,16 +111,16 @@
 
   &__title {
     color: var(--white);
-    font-size: 65px;
+    font-size: 75px;
     font-weight: 700;
     line-height: 1.1;
     max-width: 660px;
     @media #{$xxl} {
-      font-size: 46px;
+      font-size: 65px;
       max-width: 500px;
     }
     @media #{$lg} {
-      font-size: 46px;
+      font-size: 65px;
       max-width: 400px;
     }
     @media #{$md} {
@@ -143,6 +143,42 @@
       font-weight: 400;
     }
   }
+
+  &__big-title{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    max-width: 660px;
+    color: var(--white);
+    @media #{$xxl} {
+      font-size: 55px;
+      max-width: 500px;
+    }
+    @media #{$lg} {
+      font-size: 65px;
+      max-width: 400px;
+    }
+    @media #{$md} {
+      font-size: 38px;
+      div {
+        display: inline-block !important;
+      }
+    }
+    @media #{$sm} {
+      font-size: 34px;
+      div {
+        display: inline-block !important;
+      }
+    }
+
+    span {
+      color: var(--yellow);
+      font-family: var(--font-dm);
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+
   &__content {
     color: var(--gray-6);
     font-size: 18px;

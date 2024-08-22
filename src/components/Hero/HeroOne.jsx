@@ -23,10 +23,10 @@ export default function HeroOne() {
       <div className="hero__wrapper">
         <div className="hero__left">
           {hero.title && (
-            <h1 className="hero__title move-line-3d">
+            <h1 className="hero__big-title move-line-3d">
               {hero.title.sliceOne}
               <span className="course-shape"> {hero.title.sliceTwo} </span>
-              {hero.title.sliceThree} <span> {hero.title.sliceFour}</span>
+              {/* {hero.title.sliceThree} <span> {hero.title.sliceFour}</span> */}
             </h1>
           )}
           {hero.description && (

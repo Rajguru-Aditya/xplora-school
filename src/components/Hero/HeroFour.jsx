@@ -22,10 +22,10 @@ export default function HeroFour() {
 
               {hero.title && (
                 <h1 className="abhero__title move-line-3d">
-                  {hero.title.sliceOne}
                   <span className="abhero__title-shape">
-                    {hero.title.sliceTwo}
+                    {hero.title.sliceTwo}{" "}
                   </span>
+                  {hero.title.sliceOne}
                 </h1>
               )}
             </div>
@@ -37,11 +37,11 @@ export default function HeroFour() {
                   {hero.descriptionOne}
                 </p>
               )}
-              {hero.descriptionTwo && (
+              {/* {hero.descriptionTwo && (
                 <p className="abhero__content  move-line-3d" data-delay="0.8">
                   {hero.descriptionTwo}
                 </p>
-              )}
+              )} */}
             </div>
           </div>
         </div>

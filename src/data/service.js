@@ -310,44 +310,44 @@ import ProfitIcon from "/assets/imgs/icon/profit.webp";
 import ExistingIcon from "/assets/imgs/icon/existing.webp";
 
 const serviceThree = {
-  title: "Our Values",
+  title: "Our Unique Approach",
   services: [
     {
       icon: EmpowerIcon,
-      title: "Empower to learning",
+      title: "1:30 Student-Teacher Ratio",
       description:
-        "You can enable someone to write by giving them a pen and paper.",
+        "With only 30 students per batch, we ensure that each learner receives personalized attention and mentorship. Our instructors, who are C-level executives and marketing managers from leading MAANG companies, bring industry expertise directly to the classroom, giving you insights that textbooks simply can't provide.You can enable someone to write by giving them a pen and paper.",
       animation: {
         name: "fade-slide bottom",
       },
     },
     {
       icon: SkillIcon,
-      title: "Skills over Certificates",
+      title: "Hybrid Mode (Coming Soon)",
       description:
-        "You can enable someone to write by giving them a pen and paper.",
+        "Our upcoming hybrid learning model will seamlessly blend the flexibility of online education with the engagement of in-person sessions. Participate in interactive workshops, hands-on labs, and face-to-face mentoring, all while enjoying the convenience of learning from anywhere.",
       animation: {
         name: "fade-slide top",
       },
     },
     {
       icon: ProfitIcon,
-      title: "Impact over profit",
+      title: "100% Placement or Project Guarantee",
       description:
-        "You can enable someone to write by giving them a pen and paper.",
+        "We have partnered with over 500 companies to ensure that every graduate of Xplora School either secures a job in their chosen field or completes a real-world project that sets them apart. We are committed to your success, whether through direct placement or hands-on experience that enhances your portfolio.",
       animation: {
         name: "fade-slide bottom",
       },
     },
-    {
-      icon: ExistingIcon,
-      title: "Existing over exiting",
-      description:
-        "You can enable someone to write by giving them a pen and paper.",
-      animation: {
-        name: "fade-slide top",
-      },
-    },
+    // {
+    //   icon: ExistingIcon,
+    //   title: "Existing over exiting",
+    //   description:
+    //     "You can enable someone to write by giving them a pen and paper.",
+    //   animation: {
+    //     name: "fade-slide top",
+    //   },
+    // },
   ],
 };
 

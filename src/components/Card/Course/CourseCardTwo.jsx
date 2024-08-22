@@ -8,6 +8,10 @@ import YouTube from "react-youtube";
 import "./courseTwo.css";
 
 export default function CourseCardOne({ link }) {
+  useEffect(() => {
+    console.log("LINKKKKKKKKK", link);
+  }, [link]);
+
   return (
     // <div className="course__item">
     //   <div className="course__thumb-wrap">
@@ -44,11 +48,14 @@ export default function CourseCardOne({ link }) {
     //     </h3>
     //   )}
     // </div>
-    <>
+    <div>
       <iframe
+        style={{
+          borderRadius: "10px",
+        }}
         width="315"
         height="560"
-        src="https://youtube.com/embed/ih02fPSr_-o?si=t7HvhLu4PCwy_QDR"
+        src={`https://youtube.com/embed/${link}`}
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -56,6 +63,6 @@ export default function CourseCardOne({ link }) {
         // id="vid1"
         z-index="10000"
       ></iframe>
-    </>
+    </div>
   );
 }

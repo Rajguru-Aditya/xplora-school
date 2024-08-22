@@ -135,7 +135,7 @@ const aboutFour = {
     sliceTwo: "Courses",
   },
   description:
-    "Ariel Renous and Roy Wellner, two lifelong friends with a passion for business, started their educational journey in a renowned European business school. They quickly realized there was a disconnect: many of their instructors were academics that lacked real-world experience",
+    "Our specialized courses are designed to prepare you for in-demand roles in the modern job market.",
   btn: {
     text: "Browse More",
     link: "courses",

@@ -10,11 +10,11 @@ export default function ServiceThree() {
           </div>
         )}
         {data.services && data.services.length > 0 && (
-          <div className="row">
+          <div className="row abservice__item-container">
             {data.services.map((service, index) => (
               <div
                 key={index}
-                className={`col-xl-3 col-lg-3 col-md-6 abservice__border  ${service.animation.name}`}
+                className={`abservice__border  ${service.animation.name}`}
               >
                 <div className="abservice__item">
                   {service.icon && (

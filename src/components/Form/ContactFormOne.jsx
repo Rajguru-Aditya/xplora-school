@@ -1,7 +1,38 @@
 import { contactOne as contact } from "@/data/contact";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function ContactFormOne() {
+  const [submit, setSubmit] = useState(false);
+  const [formData, setFormData] = useState({
+    "entry.2037917220": "",
+    "entry.1146839265": "",
+    "entry.1451219623": "",
+  });
+
+  const handleInputData = (input) => (e) => {
+    const { value } = e.target;
+
+    setFormData((prevState) => ({
+      ...prevState,
+      [input]: value,
+    }));
+  };
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setSubmit(true);
+
+    let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLSdBTbM-zz3W2Iu9V53_9qvrMdZfK7qC6ns_RSLk_qp32grPrw/formResponse?entry.2037917220=${formData["entry.2037917220"]}&entry.1146839265=${formData["entry.1146839265"]}&entry.1451219623=${formData["entry.1451219623"]}`;
+
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+    });
+  }
+
   return (
     <section className="contact__area pt-130 pb-130">
       <div className="container">
