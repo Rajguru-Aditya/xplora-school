@@ -13,6 +13,7 @@ import PlacementGuarantee from "@/components/PlacementGuarantee/PlacementGuarant
 import Certificates from "@/components/Certificates/Certificates";
 import InstructorOne from "@/components/Instructor/InstructorOne";
 import ContactUsBanner from "@/components/ContactUsBanner/ContactUsBanner";
+import AdmissionProcess from "@/components/AdmissionProcess/AdmissionProccess";
 
 export default function CourseDetails() {
   const [currentCourse, setCurrentCourse] = useState(null);
@@ -47,6 +48,12 @@ export default function CourseDetails() {
         <CourseTwo currentCourse={currentCourse} />
         {/* <CourseDetailOne currentCourse={currentCourse}/> */}
         <CourseFeeOne currentCourse={currentCourse} />
+        <div
+          style={{
+            marginTop: "100px",
+          }}
+        ></div>
+        <AdmissionProcess currentCourse={currentCourse} />
         <BlogTwo currentCourse={currentCourse} />
         <CtaOne currentCourse={currentCourse} />
       </main>

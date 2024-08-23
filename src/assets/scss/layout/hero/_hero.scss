@@ -70,7 +70,7 @@
   }
 
   &__right {
-    @media #{$sm} {
+    @media screen and (max-width: 850px) {
       display: none;
     }
   }
@@ -349,4 +349,14 @@
 }
 .verticle-slider .swiper-wrapper {
   transition-timing-function: linear;
+
+  @media screen and (max-width: 850px) {
+    display: none;
+  }
+}
+
+.swiper{
+  @media screen and (max-width: 850px) {
+    display: none !important;
+  }
 }

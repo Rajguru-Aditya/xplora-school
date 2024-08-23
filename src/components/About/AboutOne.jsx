@@ -8,7 +8,7 @@ export default function AboutOne() {
           {about.title && (
             <div className="features__title-wrap">
               <h2 className="section-title move-line-3d">
-                {about.title.sliceOne} <em>{about.title.sliceTwo}</em>
+                {about.title.sliceOne} <em>{about.title.sliceTwo} </em>
                 {about.title.sliceThree} <span>{about.title.sliceFour}</span>
               </h2>
             </div>

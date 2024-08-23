@@ -9,6 +9,7 @@ import BlogOne from "@/components/Blog/BlogOne";
 import CtaOne from "@/components/CTA/CtaOne";
 import AboutOne from "@/components/About/AboutOne";
 import LayoutOne from "@/components/Layout/LayoutOne";
+import AdmissionProcess from "@/components/AdmissionProcess/AdmissionProccess";
 
 export default function HomePage() {
   return (
@@ -16,13 +17,19 @@ export default function HomePage() {
       <main>
         <HeroOne />
         <PartnerOne />
+        <InstructorOne />
         <AboutOne />
         <CourseOne />
         <TestimonialOne />
         <ServiceOne />
-        <InstructorOne />
         {/* <CounterOne /> */}
         {/* <BlogOne /> */}
+        <AdmissionProcess />
+        <div
+          style={{
+            marginTop: "100px",
+          }}
+        ></div>
         <CtaOne />
       </main>
     </LayoutOne>

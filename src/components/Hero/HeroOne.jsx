@@ -6,8 +6,17 @@ import ShapeBottom from "/assets/imgs/shape/shape-btm.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function HeroOne() {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      setScreenWidth(window.innerWidth);
+    });
+  }, []);
+
   const swiperOptions = {
     direction: "vertical",
     effect: "slide",
@@ -63,35 +72,40 @@ export default function HeroOne() {
             </div>
           )}
         </div>
-
-        <Swiper
-          {...swiperOptions}
-          className="swiper verticle-slider hero__right"
-        >
-          {hero.slides.map((slide, index) => (
-            <SwiperSlide key={index} className="swiper-slide">
-              <div className="verticle-slide-inner">
-                {slide.items.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className={`hero_img_height hero__img-${idx + 1}`}
-                  >
-                    {item.image && (
-                      <img className="main-img" src={item.image} alt="Image" />
-                    )}
-                    {item.widget && (
-                      <img
-                        className={`${item.widget.classNames}`}
-                        src={item.widget.image}
-                        alt="Shape"
-                      />
-                    )}
-                  </div>
-                ))}
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {screenWidth > 900 && (
+          <Swiper
+            {...swiperOptions}
+            className="swiper verticle-slider hero__right"
+          >
+            {hero.slides.map((slide, index) => (
+              <SwiperSlide key={index} className="swiper-slide">
+                <div className="verticle-slide-inner">
+                  {slide.items.map((item, idx) => (
+                    <div
+                      key={idx}
+                      className={`hero_img_height hero__img-${idx + 1}`}
+                    >
+                      {item.image && (
+                        <img
+                          className="main-img"
+                          src={item.image}
+                          alt="Image"
+                        />
+                      )}
+                      {item.widget && (
+                        <img
+                          className={`${item.widget.classNames}`}
+                          src={item.widget.image}
+                          alt="Shape"
+                        />
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
       </div>
       {/* <!-- Shape image  --> */}
       <img className="hero__shape-left moveBottom" src={ShapeLeft} alt="Icon" />
