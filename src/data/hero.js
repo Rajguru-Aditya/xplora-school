@@ -2,11 +2,11 @@ import ArrowRightWhiteIcon from "/assets/imgs/icon/arrow-right-white.svg";
 import ReviewIcon from "/assets/imgs/icon/review.webp";
 import FeedbackIcon from "/assets/imgs/icon/feedback.webp";
 
-import SlideOneItemOne from "/assets/imgs/hero/hero-1.webp";
-import SlideOneItemTwo from "/assets/imgs/hero/hero-2.webp";
-import SlideOneItemThree from "/assets/imgs/hero/hero-3.webp";
-import SlideOneItemFour from "/assets/imgs/hero/hero-4.webp";
-import SlideOneItemFive from "/assets/imgs/hero/hero-5.webp";
+import SlideOneItemOne from "/assets/imgs/hero/hero-1.png";
+import SlideOneItemTwo from "/assets/imgs/hero/hero-2.png";
+import SlideOneItemThree from "/assets/imgs/hero/hero-3.png";
+import SlideOneItemFour from "/assets/imgs/hero/hero-4.png";
+import SlideOneItemFive from "/assets/imgs/hero/hero-5.png";
 
 import SlideOneWidgetOne from "/assets/imgs/shape/hero-shape-1.webp";
 import SlideOneWidgetTwo from "/assets/imgs/shape/hero-shape-2.webp";

@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import coverbg from "../../assets/imgs/gallery/coverbg.png";
 
 export default function HeroOne() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -30,6 +31,11 @@ export default function HeroOne() {
   return (
     <section className="hero__area">
       <div className="hero__wrapper">
+        <img
+          src={coverbg}
+          alt="cover image"
+          className="team__bg-img hero-bg-img"
+        />
         <div className="hero__left">
           {hero.title && (
             <h1 className="hero__big-title move-line-3d">
@@ -72,7 +78,7 @@ export default function HeroOne() {
             </div>
           )}
         </div>
-        {screenWidth > 900 && (
+        {/* {screenWidth > 900 && (
           <Swiper
             {...swiperOptions}
             className="swiper verticle-slider hero__right"
@@ -105,7 +111,7 @@ export default function HeroOne() {
               </SwiperSlide>
             ))}
           </Swiper>
-        )}
+        )} */}
       </div>
       {/* <!-- Shape image  --> */}
       <img className="hero__shape-left moveBottom" src={ShapeLeft} alt="Icon" />
