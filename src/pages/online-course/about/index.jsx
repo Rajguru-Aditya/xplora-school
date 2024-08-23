@@ -21,7 +21,7 @@ export default function AboutPage() {
         ></div>
         {/* <InstructorOne /> */}
         {/* <CounterTwo /> */}
-        <AboutFour />
+        {/* <AboutFour /> */}
         <TestimonialOne />
         <InstructorOne type="2" spacingclassName="pt-120 pb-130" />
         <div

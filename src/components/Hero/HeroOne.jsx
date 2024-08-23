@@ -30,12 +30,12 @@ export default function HeroOne() {
   };
   return (
     <section className="hero__area">
+      <img
+        src={coverbg}
+        alt="cover image"
+        className="team__bg-img hero-bg-img"
+      />
       <div className="hero__wrapper">
-        <img
-          src={coverbg}
-          alt="cover image"
-          className="team__bg-img hero-bg-img"
-        />
         <div className="hero__left">
           {hero.title && (
             <h1 className="hero__big-title move-line-3d">

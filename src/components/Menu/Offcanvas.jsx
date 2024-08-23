@@ -72,9 +72,6 @@ export default function Offcanvas() {
                       }
                       className={`${checkActiveMenu(menu)}`}
                     >
-                      {(menu.subMenus || menu.megaMenu) && (
-                        <span>{`(0${menu.subMenus.length})`}</span>
-                      )}
                       {menu.name}
                     </Link>
                     {menu.subMenus && menu.subMenus.length > 0 && (
@@ -104,23 +101,6 @@ export default function Offcanvas() {
             )}
           </div>
         </div>
-        <div className="offcanvas-about">
-          <div className="offcanvas-about-inner">
-            <h4>About Us</h4>
-            <p>
-              Academe, study, and life on campus are interconnected aspects that
-              shape the of experience
-            </p>
-            <div
-              className="thumb"
-              style={{
-                maskImage: 'url("../assets/imgs/bg/canvas-about-bg.png")',
-              }}
-            >
-              <img className="w-100" src={CanvasAbout} alt="img" />
-            </div>
-          </div>
-        </div>
         <div className="offcanvas-social">
           <Link to="#">
             <img src={MenuIconOne} alt="img" />
@@ -139,9 +119,7 @@ export default function Offcanvas() {
           </Link>
         </div>
         <div className="offcanvas-copyright">
-          <p className="mb-0 text-center">
-            © Xplora 2024, Designed CodeXshaper
-          </p>
+          <p className="mb-0 text-center">© Xplora 2024</p>
         </div>
       </div>
     </div>
