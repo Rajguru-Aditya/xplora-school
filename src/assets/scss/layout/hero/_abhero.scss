@@ -3,10 +3,7 @@
 /*----------------------------------------*/
 .abhero {
   &__area {
-    padding: 174px 0px 0px;
-    @media #{$md} {
-      padding: 120px 0px 0px;
-    }
+    padding: 175px 0px 0px;
     @media #{$md} {
       padding: 150px 0px 0px;
     }
