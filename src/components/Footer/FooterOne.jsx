@@ -2,6 +2,7 @@ import { footerOne as footer } from "@/data/footer";
 import socials from "@/data/social";
 import { PaperPlaneTilt } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function FooterOne() {
   return (
@@ -108,6 +109,9 @@ export default function FooterOne() {
               )}
             </div>
           ))}
+
+        {/* Social Icons */}
+        <SocialIcons />
       </div>
       <div className="footer__copyright text-center">
         <p className="footer__copyright-text">

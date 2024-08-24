@@ -5,6 +5,7 @@ import menus from "@/data/menu";
 import { useThemeContext } from "@/context/ThemeContext";
 import SearchOne from "@/components/Search/SearchOne";
 import { Link } from "react-router-dom";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function HeaderOne() {
   const { toggleMobileMenu } = useThemeContext();
@@ -62,12 +63,7 @@ export default function HeaderOne() {
         </div>
         {/* <!-- Header Button  --> */}
         <div className="header__btn">
-          <Link className="btn-login" to="#">
-            Login
-          </Link>
-          <Link className="btn-signUp btn-hover-shadow" to="#">
-            Sing up free
-          </Link>
+          <SocialIcons />
         </div>
       </div>
       {/* <!-- Header Search  --> */}

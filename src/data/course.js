@@ -303,7 +303,7 @@ const courseFee = {
   cards: [
     {
       title: "Online",
-      amount: "$100",
+      amount: "₹55,000",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       features: [
         "Self-paced learning",
@@ -317,7 +317,7 @@ const courseFee = {
     },
     {
       title: "Hybrid",
-      amount: "$200",
+      amount: "₹90,000",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       features: [
         "Weekly live design critiques and Q&A sessions",

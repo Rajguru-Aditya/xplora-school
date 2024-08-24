@@ -8,6 +8,7 @@ import MenuIconThree from "/assets/imgs/menu-icon/s3.svg";
 import MenuIconFour from "/assets/imgs/menu-icon/s4.svg";
 import MenuIconFive from "/assets/imgs/menu-icon/s5.svg";
 import { Link } from "react-router-dom";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function Offcanvas() {
   const {
@@ -102,21 +103,7 @@ export default function Offcanvas() {
           </div>
         </div>
         <div className="offcanvas-social">
-          <Link to="#">
-            <img src={MenuIconOne} alt="img" />
-          </Link>
-          <Link to="#">
-            <img src={MenuIconTwo} alt="img" />
-          </Link>
-          <Link to="#">
-            <img src={MenuIconThree} alt="img" />
-          </Link>
-          <Link to="#">
-            <img src={MenuIconFour} alt="img" />
-          </Link>
-          <Link to="#">
-            <img src={MenuIconFive} alt="img" />
-          </Link>
+          <SocialIcons />
         </div>
         <div className="offcanvas-copyright">
           <p className="mb-0 text-center">© Xplora 2024</p>
