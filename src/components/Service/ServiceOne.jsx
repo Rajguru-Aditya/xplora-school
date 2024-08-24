@@ -22,7 +22,7 @@ export default function ServiceOne() {
                 key={index}
                 className={`service__item-inner-container ${service.animation.name}`}
               >
-                <div className={`service__item ${service.classNames}`}>
+                <div className={`service__why-item ${service.classNames}`}>
                   <div className="service__icon">
                     {service.icon && <img src={service.icon} alt="Icon" />}
                   </div>

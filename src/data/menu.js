@@ -147,7 +147,7 @@ const menus = [
   },
   {
     name: "Courses",
-    link: "#",
+    link: "/courses",
     subMenus: [
       {
         name: "UI/UX Design",

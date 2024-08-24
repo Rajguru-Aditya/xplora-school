@@ -61,41 +61,16 @@ export default function Offcanvas() {
                     } ${openSubMenuIndex === index ? "show" : ""}`}
                   >
                     <Link
-                      to={
-                        menu.subMenus && menu.subMenus.length > 0
-                          ? "#"
-                          : menu.link
-                      }
-                      onClick={(event) =>
-                        menu.subMenus && menu.subMenus.length > 0
-                          ? toggleSubMenu(index, event)
-                          : hideMobileMenu(null)
-                      }
+                      to={menu.name == "Courses" ? "/courses" : `${menu.link}`}
+                      // onClick={(event) =>
+                      //   menu.subMenus && menu.subMenus.length > 0
+                      //     ? toggleSubMenu(index, event)
+                      //     : hideMobileMenu(null)
+                      // }
                       className={`${checkActiveMenu(menu)}`}
                     >
                       {menu.name}
                     </Link>
-                    {menu.subMenus && menu.subMenus.length > 0 && (
-                      <ul
-                        className={`sub-menu ${
-                          openSubMenuIndex === index ? "open" : ""
-                        }`}
-                      >
-                        {menu.subMenus.map((subMenu, key) => (
-                          <li key={key} className="menu-item">
-                            <Link
-                              to={subMenu.link ?? "#"}
-                              className={`${
-                                routePath == subMenu.link ? "current" : ""
-                              }`}
-                              onClick={() => hideMobileMenu(index)}
-                            >
-                              {subMenu.name}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
                   </li>
                 ))}
               </ul>

@@ -70,10 +70,7 @@
 
     @media screen and (max-width: 700px) {
       gap: 10px;
-    }
-
-    @media screen and (max-width: 500px) {
-      gap: 5px;
+      padding: 20px;
     }
   }
 
@@ -83,6 +80,12 @@
     color: var(--white);
     border-radius: 15px;
     padding: 15px 20px;
+
+    @media screen and (max-width: 700px) {
+      padding: 10px 15px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
   }
 
   &__course-info-hr{
@@ -105,12 +108,20 @@
     font-size: 18px;
     font-weight: 700;
     color: var(--black-2);
+
+    @media screen and (max-width: 700px) {
+      font-size: 12px;
+    }
   }
 
     &__course-info-content {
       font-size: 18px;
       font-weight: 400;
       color: var(--black-2);
+
+      @media screen and (max-width: 700px) {
+        font-size: 12px;
+      }
     }
 
   &__area-6 {

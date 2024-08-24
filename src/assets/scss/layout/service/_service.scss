@@ -18,6 +18,7 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      gap: 20px;
       @media screen and (max-width: 950px) {
         flex-wrap: wrap;
       }
@@ -30,20 +31,23 @@
       align-items: center;
       width: calc(100vw/3.5);
       min-width: 250px;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
       @media screen and (max-width: 950px) {
         margin-bottom: 20px;
         min-width: 150px;
       }
     }
 
-    &__item {
+    &__why-item {
       border-radius: 15px;
       border: 1px solid var(--white-3);
-      background-color: var(--white);
-      padding: 35px 30px;
+      background-color: #fff;
       text-align: center;  
       transition: var(--transition); 
       margin-bottom: 10px;
+      width: 100%;
+      padding: 5px 0px 20px;
       &:hover {
         .service__icon img {
           transform: scale(0.9);
