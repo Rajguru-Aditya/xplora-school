@@ -18,6 +18,11 @@ export default function HomePage() {
         <HeroOne />
         <PartnerOne />
         <InstructorOne />
+        <div
+          style={{
+            marginTop: "100px",
+          }}
+        ></div>
         <AboutOne />
         <CourseOne />
         <TestimonialOne />

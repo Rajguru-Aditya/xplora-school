@@ -256,6 +256,14 @@
       color: var(--yellow);
       font-size: 26px;
     }
+
+    @media #{$md} {
+      font-size: 14px;
+      width: 100%;
+      span {
+        font-size: 18px;
+      }
+    }
   }
 }
 

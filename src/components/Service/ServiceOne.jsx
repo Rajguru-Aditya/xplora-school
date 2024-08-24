@@ -16,11 +16,11 @@ export default function ServiceOne() {
           </div>
         </div>
         {data.services && data.services.length && (
-          <div className="row gy-4">
+          <div className="service__items-container">
             {data.services.map((service, index) => (
               <div
                 key={index}
-                className={`col-xl-3 col-lg-3 col-md-6 ${service.animation.name}`}
+                className={`service__item-inner-container ${service.animation.name}`}
               >
                 <div className={`service__item ${service.classNames}`}>
                   <div className="service__icon">

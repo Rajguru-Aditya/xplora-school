@@ -53,10 +53,7 @@ export default function TestimonialOne() {
         {data.testimonials && data.testimonials.length > 0 && (
           <Swiper {...swiperOptions} className="swiper testimonial__slider">
             {data.testimonials.map((testimonial, index) => (
-              <SwiperSlide
-                key={index}
-                className="swiper-slide testimonial__slide"
-              >
+              <SwiperSlide key={index} className="testimonial__slide">
                 <img src={testimonial.quoteTopIcon} alt="Icon" />
                 <p className="testimonial__content">
                   {testimonial.description}
