@@ -17,16 +17,16 @@ export default function CourseCardOne({ course }) {
           {course.categories[0].name}
         </Link>
       )}
-      {course.wishlistIcon && (
-        <span className="course__wishlist">
-          <img src={course.wishlistIcon} alt="Icon" />
-        </span>
-      )}
-      {course.price && (
+      {/* {course.wishlistIcon && (
+          <span className="course__wishlist">
+            <img src={course.wishlistIcon} alt="Icon" />
+          </span>
+        )} */}
+      {/* {course.price && (
         <div className="course__price-wrap">
           <span className="course__price">{course.price}</span>
         </div>
-      )}
+      )} */}
       {course.meta && (
         <ul className="course__meta d-flex gap-3">
           {course.meta.map((metaItem, index) => (

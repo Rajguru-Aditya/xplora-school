@@ -73,7 +73,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Enroll Now",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
     {
@@ -107,7 +107,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Enroll Now",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
     {
@@ -141,7 +141,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Enroll Now",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
   ],
@@ -225,7 +225,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "Enroll Now",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -247,7 +247,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "Enroll Now",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -269,7 +269,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "Enroll Now",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -291,7 +291,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "Enroll Now",
+        text: "Apply Now",
         link: "course-detail",
       },
     },

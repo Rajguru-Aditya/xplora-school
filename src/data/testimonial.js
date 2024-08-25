@@ -20,35 +20,35 @@ const testimonialOne = {
       quoteBottomIcon: quoteBottomIcon,
       image: TestimonialOneImageOne,
       description:
-        "What a great course so far! Very easy to follow, clear, and concise. Great instructor. Just subscribed to your group.",
-      name: "Oliva Marry",
-      designation: "Student",
+        "Xplora School's Marketing course was a game-changer for me. I learned how to create effective campaigns and measure their success. The instructors were knowledgeable and supportive. I'd highly recommend this course to anyone looking to boost their marketing skills!",
+      name: "Rahul Sharma",
+      designation: "Marketing Executive",
     },
     {
       quoteTopIcon: quoteTopIcon,
       quoteBottomIcon: quoteBottomIcon,
       image: TestimonialOneImageTwo,
       description:
-        "What a great course so far! Very easy to follow, clear, and concise. Great instructor. Just subscribed to your group.",
-      name: "Oliva Marry",
-      designation: "Student",
+        "I was impressed by the depth and breadth of Xplora School's Data Analyst course. The instructors covered everything from data visualization to machine learning, and provided hands-on experience with industry-standard tools. I appreciated the emphasis on practical skills and real-world applications.",
+      name: "Saurabh Jain",
+      designation: "Data Analyst",
     },
     {
       quoteTopIcon: quoteTopIcon,
       quoteBottomIcon: quoteBottomIcon,
       image: TestimonialOneImageThree,
       description:
-        "What a great course so far! Very easy to follow, clear, and concise. Great instructor. Just subscribed to your group.",
-      name: "Oliva Marry",
-      designation: "Student",
+        "I loved Xplora School's UI/UX course! The instructors were passionate and knowledgeable, and the course material was engaging and inspiring. I appreciated the emphasis on creativity and user-centered design, and the opportunity to work on real-world projects.",
+      name: "Priya Patel",
+      designation: "UI/UX Designer",
     },
     {
       quoteTopIcon: quoteTopIcon,
       quoteBottomIcon: quoteBottomIcon,
       image: TestimonialOneImageFour,
       description:
-        "What a great course so far! Very easy to follow, clear, and concise. Great instructor. Just subscribed to your group.",
-      name: "Oliva Marry",
+        "I thought I knew marketing, but Xplora School's course showed me how much I didn't know. It was like drinking from a firehose, but in a good way! The instructors were engaging, the material was relevant, and the assignments were challenging but fun. I'd recommend this course to anyone who wants to level up their marketing skills and have a good time doing it.",
+      name: "Karan Singh",
       designation: "Student",
     },
     {
@@ -56,9 +56,9 @@ const testimonialOne = {
       quoteBottomIcon: quoteBottomIcon,
       image: TestimonialOneImageThree,
       description:
-        "What a great course so far! Very easy to follow, clear, and concise. Great instructor. Just subscribed to your group.",
-      name: "Oliva Marry",
-      designation: "Student",
+        "Xplora School's UI/UX course was a transformative experience for me. I learned how to approach design from a user-centered perspective, and how to create intuitive and engaging interfaces. The instructors were supportive and knowledgeable, and the course material was challenging and inspiring. I feel confident and prepared to take on any design challenge that comes my way!",
+      name: "Aisha Khan",
+      designation: "UI/UX Designer",
     },
   ],
 };
