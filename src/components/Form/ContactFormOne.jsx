@@ -1,5 +1,5 @@
 import { contactOne as contact } from "@/data/contact";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const html = `<!-- Note :
@@ -399,14 +399,56 @@ function tooltipShow751245000000327600(el){
 	<!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=a8f26a327fbc19cd29564531b11673874072c15cba4999ba19d4a788d17a777138bdf16b0ea74438401f9a33b8327495gid595f9ca740eb6469eb481bd844babcdb054f6b90967517e545e2ea37c83a8f06gide80d61369df58d772024790029af625fa63dca583951db83b2824571ffe5dd65gidc145225403d78022727a23d8774cf2e967609db0d272336140003263f39e5817&tw=81f688ea774dc46cbf7e1a5c9fdc74a37af33aa93df6de18bd69015d5c7a2f05'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
 </div>`;
 
+const hubspotHtml = `
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "145296826",
+    formId: "4ef0db01-72b7-4986-a0dd-f01522ee471a"
+  });
+</script>`;
+
 export default function ContactFormOne() {
+  const formDetails = {
+    region: "eu1",
+    portalId: "145296826",
+    formId: "4ef0db01-72b7-4986-a0dd-f01522ee471a",
+  };
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://js-eu1.hsforms.net/forms/embed/v2.js";
+    document.body.appendChild(script);
+
+    script.addEventListener("load", () => {
+      // @TS-ignore
+      if (window.hbspt) {
+        // @TS-ignore
+        window.hbspt.forms.create({
+          region: formDetails.region,
+          portalId: formDetails.portalId,
+          formId: formDetails.formId,
+          target: "#hubspotForm",
+        });
+      }
+    });
+  }, []);
+
   return (
     <section className="contact__area pt-130 pb-130">
       <div className="container">
         <div className="contact__form-wrap">
           {/* <!-- Form  --> */}
 
-          <div dangerouslySetInnerHTML={{ __html: html }} />
+          {/* <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfLYfn_jcWeKQYl0bUyRcjDADFjBvyyBO9JGiaql37hlAPUbA/viewform?embedded=true"
+            width="640"
+            height="853"
+          >
+            Loading…
+          </iframe> */}
+          <div id="hubspotForm"></div>
         </div>
         <div className="contact__socail-wrap">
           {/* <!-- Item  --> */}
