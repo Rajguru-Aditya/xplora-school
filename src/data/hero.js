@@ -14,8 +14,8 @@ import SlideOneWidgetThree from "/assets/imgs/shape/hero-shape-3.webp";
 
 const heroOne = {
   title: {
-    sliceOne: "Shaping Futures with",
-    sliceTwo: "World-Class Learning.",
+    sliceOne: "India's First Hybrid School with",
+    sliceTwo: "Placement Guaranteed",
     sliceThree: "to enhance your professional",
     sliceFour: "Skills",
   },

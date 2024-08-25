@@ -32,6 +32,12 @@
       background-repeat: no-repeat;
       background-position-x: 10px;
       background-position-y: 92%;
+      font-size: 50px;
+
+      @media screen and (max-width: 850px) {
+        font-size: 40px;
+      }
+
       @media #{$sm} {
         background-position-y: 100%;
       }
@@ -115,7 +121,7 @@
     font-size: 75px;
     font-weight: 700;
     line-height: 1.1;
-    max-width: 660px;
+    max-width: 800px;
     @media #{$xxl} {
       font-size: 65px;
       max-width: 500px;
@@ -146,22 +152,22 @@
   }
 
   &__big-title{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1.1;
     max-width: 660px;
     z-index: 20;
     color: var(--white);
     @media #{$xxl} {
-      font-size: 55px;
+      font-size: 60px;
       max-width: 500px;
     }
     @media #{$lg} {
-      font-size: 65px;
+      font-size: 45px;
       max-width: 400px;
     }
     @media #{$md} {
-      font-size: 38px;
+      font-size: 35px;
       div {
         display: inline-block !important;
       }

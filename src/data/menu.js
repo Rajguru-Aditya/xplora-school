@@ -163,70 +163,70 @@ const menus = [
       },
     ],
   },
-  {
-    name: "Blog",
-    link: "/",
-    // subMenus: [
-    //   {
-    //     name: "Blog List",
-    //     link: "/blogs",
-    //   },
-    //   {
-    //     name: "Blog Sidebar",
-    //     link: "/",
-    //     // menus: [
-    //     //   {
-    //     //     name: "Right Sidebar",
-    //     //     link: "/blogs",
-    //     //   },
-    //     //   {
-    //     //     name: "Left Sidebar",
-    //     //     link: "/blog-left-sidebar",
-    //     //   },
-    //     // ],
-    //   },
-    //   {
-    //     name: "Blog Layout",
-    //     link: "#",
-    //     menus: [
-    //       {
-    //         name: "1 Column",
-    //         link: "/blog-column-one",
-    //       },
-    //       {
-    //         name: "2 Column",
-    //         link: "/blog-column-two",
-    //       },
-    //       {
-    //         name: "3 Column",
-    //         link: "/blog-column-three",
-    //       },
-    //       {
-    //         name: "4 Column",
-    //         link: "/blog-column-four",
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     name: "Blog Details",
-    //     link: "#",
-    //     menus: [
-    //       {
-    //         name: "Right Sidebar",
-    //         link: "/blog-detail-right-sidebar",
-    //       },
-    //       {
-    //         name: "Left Sidebar",
-    //         link: "/blog-detail-left-sidebar",
-    //       },
-    //       {
-    //         name: "Without Sidebar",
-    //         link: "/blog-detail",
-    //       },
-    //     ],
-    //   },
-    // ],
-  },
+  // {
+  //   name: "Blog",
+  //   link: "/",
+  //   // subMenus: [
+  //   //   {
+  //   //     name: "Blog List",
+  //   //     link: "/blogs",
+  //   //   },
+  //   //   {
+  //   //     name: "Blog Sidebar",
+  //   //     link: "/",
+  //   //     // menus: [
+  //   //     //   {
+  //   //     //     name: "Right Sidebar",
+  //   //     //     link: "/blogs",
+  //   //     //   },
+  //   //     //   {
+  //   //     //     name: "Left Sidebar",
+  //   //     //     link: "/blog-left-sidebar",
+  //   //     //   },
+  //   //     // ],
+  //   //   },
+  //   //   {
+  //   //     name: "Blog Layout",
+  //   //     link: "#",
+  //   //     menus: [
+  //   //       {
+  //   //         name: "1 Column",
+  //   //         link: "/blog-column-one",
+  //   //       },
+  //   //       {
+  //   //         name: "2 Column",
+  //   //         link: "/blog-column-two",
+  //   //       },
+  //   //       {
+  //   //         name: "3 Column",
+  //   //         link: "/blog-column-three",
+  //   //       },
+  //   //       {
+  //   //         name: "4 Column",
+  //   //         link: "/blog-column-four",
+  //   //       },
+  //   //     ],
+  //   //   },
+  //   //   {
+  //   //     name: "Blog Details",
+  //   //     link: "#",
+  //   //     menus: [
+  //   //       {
+  //   //         name: "Right Sidebar",
+  //   //         link: "/blog-detail-right-sidebar",
+  //   //       },
+  //   //       {
+  //   //         name: "Left Sidebar",
+  //   //         link: "/blog-detail-left-sidebar",
+  //   //       },
+  //   //       {
+  //   //         name: "Without Sidebar",
+  //   //         link: "/blog-detail",
+  //   //       },
+  //   //     ],
+  //   //   },
+  //   // ],
+  // },
   {
     name: "Contact",
     link: "/contact",
