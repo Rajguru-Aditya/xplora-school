@@ -189,6 +189,33 @@
     }
   }
 
+  &__logo-img {
+    width: 200px;
+    padding: 70px 0px 60px;
+    @media #{$lg} {
+      width: 150px;
+    }
+    @media #{$sm} {
+      width: 150px;
+    }
+    @media #{$xl} {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    @media #{$lg} {
+      padding: 0px 0px 0px 0px;
+    }
+
+    @media #{$md} {
+      padding: 0px 0px 0px 0px;
+    }
+
+    @media #{$sm} {
+      padding: 0px 0px 0px 0px;
+    }
+  }
+
   &__menu-item {
     a {
       color: var(--gray-2);

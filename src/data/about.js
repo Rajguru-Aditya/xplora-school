@@ -4,15 +4,16 @@ import MessageShape from "/assets/imgs/shape/message-shape.webp";
 
 const aboutOne = {
   title: {
-    sliceOne: "Accessing your",
-    sliceTwo: "course",
-    sliceThree: "anywhere to learn new skill for grow your",
-    sliceFour: "Career",
+    sliceOne: "Take your career to the next level with our ",
+    sliceTwo: "",
+    sliceThree: "",
+    sliceFour:
+      "expert-led courses, hands-on projects, and guaranteed placement support",
   },
   description:
     "In recent years, the popularity of online learning has surged, providing individuals with a flexible and convenient avenue to pursue education.",
   video: {
-    src: "assets/media/videos/features-video.mp4",
+    src: "assets/media/videos/aboutVidNew.mp4",
   },
   widgets: [
     {

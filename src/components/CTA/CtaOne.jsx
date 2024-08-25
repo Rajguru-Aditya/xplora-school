@@ -14,9 +14,10 @@ export default function CtaOne() {
           </h2>
         )}
         <div className="fade-slide bottom">
-          <Link
+          <a
             className="btn-getstarted btn-hover-shadow"
-            to={data.action.link}
+            href={data.action.link}
+            target="_blank"
           >
             {data.action.name}
             {data.action.icon && (
@@ -26,7 +27,7 @@ export default function CtaOne() {
                 alt="Icon"
               />
             )}
-          </Link>
+          </a>
         </div>
         {/* <!-- Shape  --> */}
         <img className="cta__shape-1" src={data.shapeOne} alt="Shape" />

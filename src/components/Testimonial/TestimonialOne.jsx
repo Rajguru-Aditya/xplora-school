@@ -59,9 +59,6 @@ export default function TestimonialOne() {
                   {testimonial.description}
                 </p>
                 <div className="testimonial__client-info">
-                  <div className="testimonial__client-img">
-                    <img src={testimonial.image} alt="Image" />
-                  </div>
                   <div className="testimonil__text">
                     <h3 className="testimonial__client-name">
                       {testimonial.name}

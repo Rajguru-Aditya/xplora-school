@@ -54,6 +54,13 @@ export default function AdmissionProcess({
                 data-duration={prs.animation.duration}
               >
                 <AdmissionCard type={type} process={prs} />
+                {index !== data.process.length - 1 && (
+                  <img
+                    src="https://img.icons8.com/hieroglyphs/100/FFFFFF/right.png"
+                    alt="right arrow"
+                    className="admissionProcess__usp-arrow"
+                  />
+                )}
               </div>
             ))}
           </div>

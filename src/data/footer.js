@@ -1,14 +1,14 @@
 import Logo from "/assets/imgs/logo/header-logo-white.svg";
 import AppleStoreIcon from "/assets/imgs/icon/apple-icon.svg";
 import PlayStoreIcon from "/assets/imgs/icon/play-stor.svg";
-import XploraLogo from "/assets/imgs/logo/xploraLogo.svg";
+import XploraLogoWhite from "/assets/imgs/logo/xploraLogoWhite.png";
 
 import Mail from "/assets/imgs/icon/mail-dark.webp";
 import Phone from "/assets/imgs/icon/phone-dark.webp";
 import Location from "/assets/imgs/icon/location-dark.webp";
 
 const footerOne = {
-  logo: XploraLogo,
+  logo: XploraLogoWhite,
   title: "Our Apps",
   appleIcon: AppleStoreIcon,
   appleTitle: "Apps Store",

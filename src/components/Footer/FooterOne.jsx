@@ -10,7 +10,7 @@ export default function FooterOne() {
       <div className="footer__btm">
         <div className="footer__logo">
           <Link to="/">
-            <img src={footer.logo} alt="Logo" />
+            <img src={footer.logo} alt="Logo" className="footer__logo-img" />
           </Link>
         </div>
         {/* <!-- Footer widget  --> */}

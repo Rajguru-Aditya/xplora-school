@@ -9,13 +9,13 @@ import ShapeSix from "/assets/imgs/shape/ct-shapeone-6.webp";
 
 const ctaOne = {
   title: {
-    sliceOne: "Are you prepared to begin",
-    sliceTwo: "Learning?",
+    sliceOne: "Are you prepared to get",
+    sliceTwo: " Placement Ready?",
   },
   footerTitleVector: FooterTitleVector,
   action: {
     name: "Get Started",
-    link: "contact",
+    link: "https://calendly.com/akrulz2180/counselling-round-w-founder-xplora-school",
     icon: ArrowRightWhite,
   },
   shapeOne: ShapeOne,
