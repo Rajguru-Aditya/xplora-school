@@ -172,7 +172,7 @@
       display: block;
     }
     .btn-enroll {
-      margin-left: 30px;
+      margin-top: 20px;
       display: inline-block;
       box-shadow: none;
       &:hover {
@@ -193,12 +193,15 @@
   }
 
   &__meta {
-    padding: 11px 0px 4px 30px;
+    padding: 20px !important;
+    display: flex;
+    justify-content: space-between;
   }
 
   &__meta-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 6px;
     color: var(--gray);
     font-size: 14px;

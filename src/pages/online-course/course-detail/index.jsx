@@ -43,7 +43,6 @@ export default function CourseDetails() {
         <CourseHighlights currentCourse={currentCourse} />
         <ServiceTwo currentCourse={currentCourse} />
         <PlacementGuarantee currentCourse={currentCourse} />
-        <PartnerTwo currentCourse={currentCourse} />
         <Certificates currentCourse={currentCourse} />
         <CourseTwo currentCourse={currentCourse} />
         {/* <CourseDetailOne currentCourse={currentCourse}/> */}

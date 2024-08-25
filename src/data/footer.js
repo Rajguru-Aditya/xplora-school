@@ -38,45 +38,8 @@ const footerOne = {
       ],
     },
     {
-      title: "Company",
-      menus: [
-        {
-          name: "About Us",
-          link: "about",
-        },
-        {
-          name: "Blog",
-          link: "blogs",
-        },
-        {
-          name: "Course",
-          link: "course-detail",
-        },
-        {
-          name: "Instructor",
-          link: "instructors",
-        },
-        {
-          name: "404",
-          link: "not_found",
-        },
-      ],
-    },
-    {
       title: "Help & Support",
       menus: [
-        {
-          name: "Help Guides",
-          link: "contact",
-        },
-        {
-          name: "Course Status",
-          link: "course-detail",
-        },
-        {
-          name: "Course Info",
-          link: "course-detail",
-        },
         {
           name: "Privacy Policy",
           link: "contact",
@@ -85,27 +48,31 @@ const footerOne = {
           name: "Contact us",
           link: "contact",
         },
-      ],
-    },
-    {
-      title: "Contact Us",
-      menus: [
         {
-          icon: Mail,
-          name: "info@skillhub.info",
-          link: "mailto:info@skillhub.info",
-        },
-        {
-          icon: Phone,
-          name: "(00) 123 456 789",
-          link: "tel:(00)123456789",
-        },
-        {
-          icon: Location,
-          name: "East Katharina, Mto city,New York - 1206",
+          name: "About Us",
+          link: "about",
         },
       ],
     },
+    // {
+    //   title: "Contact Us",
+    //   menus: [
+    //     {
+    //       icon: Mail,
+    //       name: "info@skillhub.info",
+    //       link: "mailto:info@skillhub.info",
+    //     },
+    //     {
+    //       icon: Phone,
+    //       name: "(00) 123 456 789",
+    //       link: "tel:(00)123456789",
+    //     },
+    //     {
+    //       icon: Location,
+    //       name: "East Katharina, Mto city,New York - 1206",
+    //     },
+    //   ],
+    // },
   ],
 };
 

@@ -17,15 +17,15 @@ export default function PartnerOne() {
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 50,
       },
       480: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: 50,
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: 50,
       },
       1200: {
         slidesPerView: 6,
@@ -38,18 +38,24 @@ export default function PartnerOne() {
       <div className="container-lg">
         <div className="client__wrapper">
           {partner.items && partner.items.length > 0 && (
-            <h2 className="client__title fade-slide bottom">{partner.title}</h2>
+            <h2 className="client__title fade-slide bottom">
+              {" "}
+              {partner.title.sliceOne} <span>{partner.title.sliceTwo}</span>{" "}
+            </h2>
           )}
           {/* <!-- client slider--> */}
           {partner.items && partner.items.length > 0 && (
             <div className="client__inner">
-              <Swiper {...swiperOptions} className="swiper client-slider">
+              <Swiper
+                {...swiperOptions}
+                className="swiper client-slider client__img-container"
+              >
                 {partner.items.map((partner, index) => (
                   <SwiperSlide
                     key={index}
                     className="swiper-slide client__slide"
                   >
-                    <img src={partner} alt="Logo" />
+                    <img src={partner} alt="Logo" className="client__logo" />
                   </SwiperSlide>
                 ))}
               </Swiper>

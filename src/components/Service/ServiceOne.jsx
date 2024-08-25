@@ -20,9 +20,9 @@ export default function ServiceOne() {
             {data.services.map((service, index) => (
               <div
                 key={index}
-                className={`service__item-inner-container ${service.animation.name}`}
+                className={`service__item-inner-container ${service.animation.name}  ${service.classNames}`}
               >
-                <div className={`service__why-item ${service.classNames}`}>
+                <div className={`service__why-item`}>
                   <div className="service__icon">
                     {service.icon && <img src={service.icon} alt="Icon" />}
                   </div>

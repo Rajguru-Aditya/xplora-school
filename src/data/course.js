@@ -49,7 +49,7 @@ const courseOne = {
         name: "Jackie Rippin",
       },
       wishlistIcon: WishListIcon,
-      title: "Web Development For Beginners How To Use HTML5",
+      title: "UI/UX Design",
       price: "$19.00",
       link: "course-detail/uidesign",
       filterClass: "trending",
@@ -61,17 +61,17 @@ const courseOne = {
       ],
       meta: [
         {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
+          icon: "https://img.icons8.com/material-two-tone/16/FF6B2C/time.png",
+          description: "5 months",
         },
         {
           icon: StatusIcon,
-          description: "Beginner",
+          description: "Live + Hybrid",
         },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
+        // {
+        //   icon: UserGroupIcon,
+        //   description: "5K+ Students",
+        // },
       ],
       enrollBtnText: "Enroll Now",
       arrowIcon: RightArrowRedIcon,
@@ -83,7 +83,7 @@ const courseOne = {
         name: "Jackie Rippin",
       },
       wishlistIcon: WishListIcon,
-      title: "Crafting User-Friendly Interfaces Design",
+      title: "Digital Marketing",
       price: "$9.00",
       link: "course-detail/marketing",
       filterClass: "trending",
@@ -95,17 +95,17 @@ const courseOne = {
       ],
       meta: [
         {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
+          icon: "https://img.icons8.com/material-two-tone/16/FF6B2C/time.png",
+          description: "5 months",
         },
         {
           icon: StatusIcon,
-          description: "Beginner",
+          description: "Live + Hybrid",
         },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
+        // {
+        //   icon: UserGroupIcon,
+        //   description: "5K+ Students",
+        // },
       ],
       enrollBtnText: "Enroll Now",
       arrowIcon: RightArrowRedIcon,
@@ -117,7 +117,7 @@ const courseOne = {
         name: "Jackie Rippin",
       },
       wishlistIcon: WishListIcon,
-      title: "Responsive Web Design: Creating Sites for Any Device",
+      title: "Data Analytics",
       price: "$15.00",
       link: "course-detail/analytics",
       filterClass: "popular",
@@ -129,17 +129,17 @@ const courseOne = {
       ],
       meta: [
         {
-          icon: StarRedIcon,
-          description: "4.9 Rating",
+          icon: "https://img.icons8.com/material-two-tone/16/FF6B2C/time.png",
+          description: "5 months",
         },
         {
           icon: StatusIcon,
-          description: "Beginner",
+          description: "Live + Hybrid",
         },
-        {
-          icon: UserGroupIcon,
-          description: "5K+ Students",
-        },
+        // {
+        //   icon: UserGroupIcon,
+        //   description: "5K+ Students",
+        // },
       ],
       enrollBtnText: "Enroll Now",
       arrowIcon: RightArrowRedIcon,
@@ -338,7 +338,7 @@ const courseHighlightsUI = {
     { title: "duration", details: "5 months" },
     {
       title: "format",
-      details: "Online/Hybrid",
+      details: "Live + Hybrid",
     },
     {
       title: "average package",
@@ -643,7 +643,7 @@ const courseHighlightsAnalytics = {
     { title: "duration", details: "5 months" },
     {
       title: "format",
-      details: "Online/Hybrid",
+      details: "Live + Hybrid",
     },
     {
       title: "average package",

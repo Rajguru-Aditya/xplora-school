@@ -27,16 +27,6 @@ export default function CourseCardOne({ course }) {
           <span className="course__price">{course.price}</span>
         </div>
       )}
-      {course.instructor && (
-        <div className="course__instructor d-flex align-items-center gap-2">
-          {course.instructor.image && (
-            <img src={course.instructor.image} alt="Instructors" />
-          )}
-          {course.instructor && (
-            <p className="course__instructor-name">{course.instructor.name}</p>
-          )}
-        </div>
-      )}
       {course.meta && (
         <ul className="course__meta d-flex gap-3">
           {course.meta.map((metaItem, index) => (

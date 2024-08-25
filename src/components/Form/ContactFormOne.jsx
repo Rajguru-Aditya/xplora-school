@@ -450,8 +450,7 @@ export default function ContactFormOne() {
           </iframe> */}
           <div id="hubspotForm"></div>
         </div>
-        <div className="contact__socail-wrap">
-          {/* <!-- Item  --> */}
+        {/* <div className="contact__socail-wrap">
           <div className="contact__social-item">
             <div className="contact__social-iconWrap">
               <img
@@ -470,7 +469,6 @@ export default function ContactFormOne() {
               </Link>
             </div>
           </div>
-          {/* <!-- Item  --> */}
           <div className="contact__social-item">
             <div className="contact__social-iconWrap">
               <img
@@ -489,7 +487,6 @@ export default function ContactFormOne() {
               </Link>
             </div>
           </div>
-          {/* <!-- Item  --> */}
           <div className="contact__social-item">
             <div className="contact__social-iconWrap">
               <img
@@ -511,7 +508,7 @@ export default function ContactFormOne() {
               )}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

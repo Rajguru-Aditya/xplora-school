@@ -19,6 +19,18 @@
         max-width: 1450px;
         margin: 0 auto;
     }
+
+    &__img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    &__logo{
+        height: 50px;
+        width: fit-content;
+    }
     
     &__title {
         color: var(--black-2);
@@ -32,6 +44,10 @@
         }
         @media #{$sm} {
            font-size: 22px;
+        }
+
+        span {
+            color: #00752F;
         }
     }
 

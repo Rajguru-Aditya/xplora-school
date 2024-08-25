@@ -7,53 +7,12 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 export default function FooterOne() {
   return (
     <footer className="footer__area">
-      <div className="footer__socail-wrap">
-        <div className="footer__social-inner">
-          <div className="footer__logo">
-            <Link to="/">
-              <img src={footer.logo} alt="Logo" />
-            </Link>
-          </div>
-          {/* BUTTONS */}
-          {/* <div className="footer__btn d-flex align-items-center gap-3">
-            {footer.title && (
-              <h3 className="footer__app-title">{footer.title}</h3>
-            )}
-            <Link className="btn-appStore" to={footer.appleLink}>
-              <img
-                className="btn-icon"
-                src={footer.appleIcon}
-                alt="Icon"
-                style={{ width: "auto", height: "auto" }}
-              />
-              {footer.appleTitle}
-            </Link>
-            <Link className="btn-playstor" to={footer.playLink}>
-              <img
-                className="btn-icon"
-                src={footer.playIcon}
-                alt="Icon"
-                style={{ width: "auto", height: "auto" }}
-              />
-              {footer.playTitle}
-            </Link>
-          </div> */}
-          {/* <!-- Footer social  -->  */}
-          {/* {socials && socials.length > 0 && (
-            <ul className="footer__socail">
-              {socials.map((social, index) => (
-                <li key={index} className="footer__social-item">
-                  <Link className="footer__social-link" to={social.link}>
-                    <img src={social.icon} alt="Icon" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )} */}
-          {/* <!-- Footer social  --> */}
-        </div>
-      </div>
       <div className="footer__btm">
+        <div className="footer__logo">
+          <Link to="/">
+            <img src={footer.logo} alt="Logo" />
+          </Link>
+        </div>
         {/* <!-- Footer widget  --> */}
 
         {/* <div className="footer__widget">

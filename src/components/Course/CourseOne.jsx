@@ -72,7 +72,7 @@ export default function CourseOne() {
             </div>
           ))}
         </div>
-        {data.more && (
+        {/* {data.more && (
           <div className="course__btm">
             <Link
               className="btn-primary btn-hover-shadow"
@@ -88,7 +88,7 @@ export default function CourseOne() {
               )}
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
