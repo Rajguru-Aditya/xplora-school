@@ -35,11 +35,11 @@ export default function CourseOne() {
 
           <p className="section-subtitle move-line-3d">{data.subtitle}</p>
         </div>
-        <div className="row course__wrapper fade-slide bottom">
+        <div className="course__wrapper-1">
           {data.courses.map((course, index) => (
             <div
               key={index}
-              className={`col-xl-4 col-lg-4 col-md-6 course_item_wrapper ${course.filterClass}`}
+              className={`course_item_wrapper-2 ${course.filterClass}`}
             >
               <CourseCardTwo link={course?.link} />
             </div>

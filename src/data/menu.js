@@ -154,7 +154,7 @@ const menus = [
         link: "/course-detail/uidesign",
       },
       {
-        name: "Social Media Marketing",
+        name: "Digital Marketing",
         link: "/course-detail/marketing",
       },
       {

@@ -8,6 +8,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import coverbg from "../../assets/imgs/gallery/coverbg.png";
+import heroImg from "../../assets/imgs/gallery/heroImg3.png";
 
 export default function HeroOne() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -113,6 +114,11 @@ export default function HeroOne() {
           </Swiper>
         )} */}
       </div>
+      {screenWidth > 900 && (
+        <div>
+          <img src={heroImg} alt="Xplora" className="hero__right-img" />
+        </div>
+      )}
       {/* <!-- Shape image  --> */}
       <img className="hero__shape-left moveBottom" src={ShapeLeft} alt="Icon" />
       <img

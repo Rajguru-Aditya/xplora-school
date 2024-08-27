@@ -23,7 +23,8 @@ const partnerOne = {
   // ClientEight,
   // ClientNine,
   items: [
-    "https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png",
+    "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://top-level.ae/wp-content/uploads/2022/06/logo_black.png",
+    "https://upload.wikimedia.org/wikipedia/commons/a/aa/DLF_logo.svg",
     "https://cdn.prod.website-files.com/5fe2c7874ee3c6c56889bbd2/60a3e9f7538e5b49b3b84255_UrbanCompany.png",
     "https://upload.wikimedia.org/wikipedia/commons/1/14/FamPay_Logo.png",
     "https://www.pngitem.com/pimgs/m/217-2172193_instamojo-payment-gateway-hd-png-download.png",

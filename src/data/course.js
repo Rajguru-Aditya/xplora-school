@@ -335,18 +335,18 @@ const courseFee = {
 const courseHighlightsUI = {
   title: "Course Highlights",
   info: [
-    { title: "duration", details: "5 months" },
+    { title: "Duration", details: "5 months" },
     {
-      title: "format",
+      title: "Format",
       details: "Live + Hybrid",
     },
     {
-      title: "average package",
-      details: "6LPA",
+      title: "Average package",
+      details: "6 LPA",
     },
     {
-      title: "placement guarantee",
-      details: "Get a Job in UI/UX Design or Your Money Back!",
+      title: "Guarantee",
+      details: "A job or client for freelancing career",
     },
   ],
   accordion: [
