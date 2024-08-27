@@ -23,7 +23,7 @@ const heroOne = {
     "Discover innovative methods to transform your skills and professional life.",
   btn: {
     title: "Explore our courses",
-    link: "course",
+    link: "/courses",
     icon: ArrowRightWhiteIcon,
   },
   review: {

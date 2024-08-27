@@ -15,7 +15,7 @@ const ctaOne = {
   footerTitleVector: FooterTitleVector,
   action: {
     name: "Get Started",
-    link: "https://calendly.com/akrulz2180/counselling-round-w-founder-xplora-school",
+    link: "/contact",
     icon: ArrowRightWhite,
   },
   shapeOne: ShapeOne,
