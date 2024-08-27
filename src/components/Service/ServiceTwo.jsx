@@ -58,7 +58,13 @@ export default function ServiceTwo({ currentCourse }) {
               >
                 <Grid item className={`service__item ${service.classNames}`}>
                   <div className="service__icon">
-                    {service.icon && <img src={service.icon} alt="Icon" />}
+                    {service.icon && (
+                      <img
+                        src={service.icon}
+                        alt="Icon"
+                        className="service__icon-img"
+                      />
+                    )}
                   </div>
                   <h3 className="service__title">{service.title}</h3>
                   {service.description && <p>{service.description}</p>}

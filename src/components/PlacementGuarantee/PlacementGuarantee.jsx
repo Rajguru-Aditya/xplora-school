@@ -29,7 +29,9 @@ const PlacementGuarantee = () => {
                 className={`placement-guarantee__item ${item.class}`}
                 key={index}
               >
-                <div className="placement-guarantee__step">{item.step}</div>
+                <div className="placement-guarantee__step">
+                  Step {index + 1}
+                </div>
                 <div className="placement-guarantee__content">
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
@@ -42,7 +44,9 @@ const PlacementGuarantee = () => {
                 className={`placement-guarantee__item ${item.class}`}
                 key={index}
               >
-                <div className="placement-guarantee__step">{item.step}</div>
+                <div className="placement-guarantee__step">
+                  Step {index + 4}
+                </div>
                 <div className="placement-guarantee__content">
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>

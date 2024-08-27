@@ -18,7 +18,7 @@ const placement = {
       class: "placement-guarantee__item-left",
     },
     {
-      step: "Step 03",
+      step: "Step 05",
       title: "Create A Powerful Portfolio",
       description:
         "Build A Portfolio That Highlights Your Skills And Projects Effectively.",
@@ -40,7 +40,7 @@ const placement = {
       class: "placement-guarantee__item-right",
     },
     {
-      step: "Step 04",
+      step: "Step 06",
       title: "Ace Top-Tier Marketing Interviews",
       description:
         "Master Interview Techniques For Leading Marketing Positions.",

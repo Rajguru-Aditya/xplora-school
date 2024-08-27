@@ -51,7 +51,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "UI/UX Design",
       price: "$19.00",
-      link: "course-detail/uidesign",
+      link: "/course-detail/uidesign",
       filterClass: "trending",
       categories: [
         {
@@ -85,7 +85,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "Digital Marketing",
       price: "$9.00",
-      link: "course-detail/marketing",
+      link: "/course-detail/marketing",
       filterClass: "trending",
       categories: [
         {
@@ -119,7 +119,7 @@ const courseOne = {
       wishlistIcon: WishListIcon,
       title: "Data Analytics",
       price: "$15.00",
-      link: "course-detail/analytics",
+      link: "/course-detail/analytics",
       filterClass: "popular",
       categories: [
         {
@@ -302,29 +302,31 @@ const courseFee = {
   title: "Course Fee",
   cards: [
     {
-      title: "Online",
-      amount: "₹55,000",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Virtual Classroom",
+      amount: "₹54,990",
+      description: "3 Installments: Pay ₹18,330 per month over three months.",
       features: [
-        "Self-paced learning",
-        "Access to all design tools and resources",
-        "Interactive design projects and assignments",
-        "Online community support",
-        "Personalized feedback on design work",
+        "Weekly live sessions",
+        "Lifetime community access",
+        "Portfolio-building projects",
+        "Comprehensive mock interviews",
+        "Instant feedback loop",
+        "Lifetime access to session recordings and resources",
+        "1:1 Placement Assistance",
       ],
       buttonText: "Apply Now",
       type: "Online",
     },
     {
-      title: "Hybrid",
-      amount: "₹90,000",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Hybrid Classroom",
+      amount: "₹79,990",
+      description: "3 Installments: Pay ₹26,663 per month over three months",
       features: [
-        "Weekly live design critiques and Q&A sessions",
-        "Hands-on workshops and real-world project collaboration",
-        "Access to all design tools and resources",
-        "Personalized feedback on design work",
-        "Networking opportunities with industry professionals",
+        "All Online Learning Package features plus - ",
+        " 2 In-Person Workshops Per Month: Practical, hands-on sessions for deeper learning.",
+        "Offline Career Development & Placement Prep: Exclusive in-person mock interviews, resume building, and job strategy sessions led by industry experts.",
+        "Graduation Day & Networking Events: Celebrate your achievement with a graduation ceremony, activities, and a chance to connect with peers, alumni, and industry leaders.",
+        "Priority Placement Support: Direct access to job opportunities and client connections in major cities for walk-in interviews.",
       ],
       buttonText: "Apply Now",
       type: "Hybrid",

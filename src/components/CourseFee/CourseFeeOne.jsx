@@ -17,10 +17,12 @@ const CourseFeeOne = () => {
             }`}
           >
             <h3 className="course-fee-one__card-title">{item.title}</h3>
+
+            <p className="course-fee-one__card-amount">{item.amount}</p>
+
             <p className="course-fee-one__card-description">
               {item.description}
             </p>
-            <p className="course-fee-one__card-amount">{item.amount}</p>
             <div className="course-fee-one__features-container">
               {item.features?.map((feature, index) => (
                 <div
@@ -29,7 +31,7 @@ const CourseFeeOne = () => {
                 >
                   <img
                     src={`https://img.icons8.com/ios-glyphs/30/${
-                      item.title === "Online" ? "000000" : "ffffff"
+                      item.title === "Virtual Classroom" ? "000000" : "ffffff"
                     }/checkmark--v1.png`}
                     alt="checkmark"
                     className="course-fee-one__checkmark"

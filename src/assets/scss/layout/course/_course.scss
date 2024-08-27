@@ -27,13 +27,12 @@
     }
   }
 
-  &_item_wrapper{
+  &_item_wrapper-0{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 50px;
-    width: calc(100vw/3.5);
-    min-width: 300px;
+    flex: 1 1 calc(33.33% - 2rem); // Adjusts the flex basis to 1/3 of the container
+    min-width: 350px;
+    max-width: calc(100vw/3.5);
+    margin: 0 auto; // Center each card within the parent
     @media #{$md} {
       padding-bottom: 30px;
     }
@@ -44,14 +43,19 @@
     }
   }
   
-  &__wrapper {
-    margin-bottom: 10px;
+  &__wrapper-0 {
     display: flex;
-    justify-content: space-between !important;
-    flex-wrap: wrap !important;
-    align-items: center;
-    gap: 30px;
-    padding-bottom: 50px;
+    flex-wrap: wrap; // Ensure the items wrap properly
+    justify-content: center; // Center the items
+    align-items: flex-start; // Align items at the start (can change to center)
+    gap: 2rem;
+  
+    // Remove width restrictions that might push items left
+    max-width: 100%;
+    margin: 0 auto; // Center the container within its parent
+    .featured .trending .popular {
+        position: static !important; // Override Isotope's positioning
+      }
     @media #{$md} {
       padding-bottom: 30px;
     }
@@ -205,7 +209,7 @@
     position: relative;
     box-shadow: 0px 45px 60px 0px rgba(53, 24, 12, 0.1);
     margin-bottom: 30px;
-    display: inline-block;
+    width: 100%;
     transition: var(--transition);
     @media #{$sm} {
       width: 100%;
