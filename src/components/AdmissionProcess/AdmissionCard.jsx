@@ -4,9 +4,18 @@ import { Link } from "react-router-dom";
 AdmissionCard.propTypes = {
   type: PropTypes.string,
   process: PropTypes.object,
+  data: PropTypes.object,
+  index: PropTypes.number,
+  screenWidth: PropTypes.number,
 };
 
-export default function AdmissionCard({ type, process }) {
+export default function AdmissionCard({
+  type,
+  process,
+  data,
+  index,
+  screenWidth,
+}) {
   return (
     <div className={`admissionProcess__item${type ? `-${type}` : ""}`}>
       {process.title && (
@@ -31,6 +40,14 @@ export default function AdmissionCard({ type, process }) {
           {process.desc}
         </h4>
       )}
+      {index !== data.process.length - 1 &&
+        (screenWidth < 700 || screenWidth > 1060) && (
+          <img
+            src="https://img.icons8.com/hieroglyphs/100/FFFFFF/right.png"
+            alt="right arrow"
+            className="admissionProcess__usp-arrow"
+          />
+        )}
     </div>
   );
 }

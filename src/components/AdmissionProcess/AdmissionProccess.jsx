@@ -6,6 +6,7 @@ import ShapeRight from "/assets/imgs/shape/shape-right.webp";
 import ShapeBottom from "/assets/imgs/shape/shape-btm.webp";
 import coverbg from "../../assets/imgs/gallery/coverbg.png";
 import AdmissionCard from "./AdmissionCard";
+import { useEffect, useState } from "react";
 
 AdmissionProcess.propTypes = {
   type: PropTypes.string,
@@ -16,6 +17,20 @@ export default function AdmissionProcess({
   type = "",
   spacingClass = "pt-110",
 }) {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <section
       className={`admissionProcess__area${
@@ -53,14 +68,13 @@ export default function AdmissionProcess({
                 data-delay={prs.animation.delay}
                 data-duration={prs.animation.duration}
               >
-                <AdmissionCard type={type} process={prs} />
-                {index !== data.process.length - 1 && (
-                  <img
-                    src="https://img.icons8.com/hieroglyphs/100/FFFFFF/right.png"
-                    alt="right arrow"
-                    className="admissionProcess__usp-arrow"
-                  />
-                )}
+                <AdmissionCard
+                  type={type}
+                  process={prs}
+                  data={data}
+                  index={index}
+                  screenWidth={screenWidth}
+                />
               </div>
             ))}
           </div>
