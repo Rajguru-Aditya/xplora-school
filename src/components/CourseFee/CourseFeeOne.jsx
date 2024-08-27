@@ -42,12 +42,11 @@ const CourseFeeOne = () => {
                 </div>
               ))}
             </div>
-            <button
-              className="course-fee-one__card-button"
-              onClick={() => alert("You clicked me!")}
-            >
-              {item.buttonText}
-            </button>
+            <a href="https://wa.me/7031853012" target="_blank">
+              <button className="course-fee-one__card-button">
+                {item.buttonText}
+              </button>
+            </a>
           </div>
         ))}
       </div>

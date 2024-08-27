@@ -53,7 +53,12 @@ export default function CourseDetails() {
           }}
         ></div>
         <AdmissionProcess currentCourse={currentCourse} />
-        <BlogTwo currentCourse={currentCourse} />
+        <div
+          style={{
+            marginTop: "100px",
+          }}
+        ></div>
+        {/* <BlogTwo currentCourse={currentCourse} /> */}
         <CtaOne currentCourse={currentCourse} />
       </main>
     </LayoutOne>

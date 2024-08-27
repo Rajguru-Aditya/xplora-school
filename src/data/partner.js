@@ -27,7 +27,6 @@ const partnerOne = {
     "https://upload.wikimedia.org/wikipedia/commons/a/aa/DLF_logo.svg",
     "https://cdn.prod.website-files.com/5fe2c7874ee3c6c56889bbd2/60a3e9f7538e5b49b3b84255_UrbanCompany.png",
     "https://upload.wikimedia.org/wikipedia/commons/1/14/FamPay_Logo.png",
-    "https://www.pngitem.com/pimgs/m/217-2172193_instamojo-payment-gateway-hd-png-download.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/SunburnFestiveProperty.svg/1592px-SunburnFestiveProperty.svg.png",
     "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1720244494",
 
