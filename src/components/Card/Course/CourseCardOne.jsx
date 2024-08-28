@@ -11,12 +11,12 @@ export default function CourseCardOne({ course }) {
       <div className="course__thumb-wrap-1">
         <img className="course__thumb" src={course.image} alt="Course" />
       </div>
-      {course.categories && course.categories.length > 0 && (
+      {/* {course.categories && course.categories.length > 0 && (
         <Link className="btn-trending" to={course.categories[0].link}>
           <i className="ph ph-fire-simple"></i>
           {course.categories[0].name}
         </Link>
-      )}
+      )} */}
       {course.meta && (
         <ul className="course__meta d-flex gap-3">
           {course.meta.map((metaItem, index) => (
