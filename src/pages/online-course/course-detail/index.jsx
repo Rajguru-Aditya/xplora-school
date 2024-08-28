@@ -58,7 +58,7 @@ export default function CourseDetails() {
             marginTop: "100px",
           }}
         ></div>
-        {/* <BlogTwo currentCourse={currentCourse} /> */}
+        <BlogTwo currentCourse={currentCourse} />
         <CtaOne currentCourse={currentCourse} />
       </main>
     </LayoutOne>

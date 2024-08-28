@@ -3,7 +3,26 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useEffect, useState } from "react";
 export default function BlogOne() {
+  const [activeTab, setActiveTab] = useState(0);
+  const [selectedSection, setSelectedSection] = useState(data.faqs[0].section);
+  const [sectionFAQs, setSectionFAQs] = useState(data.faqs[0].items);
+
+  const handleTab = (index) => {
+    setActiveTab(index);
+  };
+
+  const handleSection = (section) => {
+    setSelectedSection(section);
+  };
+
+  useEffect(() => {
+    const section = data.faqs.find((faq) => faq.section === selectedSection);
+    console.log("section", section);
+    setSectionFAQs(section.items);
+  }, [selectedSection]);
+
   return (
     <section className="blog__area pt-100 pb-120">
       <div className="container">
@@ -15,14 +34,34 @@ export default function BlogOne() {
               </div>
             )}
           </div>
+          <div className="blog__faq-tabs-container">
+            {
+              <div className="blog__faq-tabs">
+                {data.faqs.map((tab, index) => (
+                  <button
+                    key={index}
+                    className={`blog__faq-tab ${
+                      index === activeTab ? "blog__active-tab" : ""
+                    }`}
+                    onClick={() => {
+                      handleTab(index);
+                      handleSection(tab.section);
+                    }}
+                  >
+                    {tab.section}
+                  </button>
+                ))}
+              </div>
+            }
+          </div>
         </div>
-        {data.blogs && data.blogs.length > 0 && (
+        {data.faqs && data.faqs.length > 0 && (
           <div className="row gy-4">
-            {data.blogs.map((blog, index) => (
+            {sectionFAQs?.map((faq, index) => (
               <div
                 key={index}
-                className={` ${blog.animation.name}`}
-                data-delay={blog.animation.delay}
+                className={` ${faq.animation.name}`}
+                data-delay={faq.animation.delay}
               >
                 {/* <BlogCardOne blog={blog} /> */}
                 <Accordion
@@ -40,10 +79,10 @@ export default function BlogOne() {
                     aria-controls="panel1-content"
                     id="panel1-header"
                   >
-                    <h3 className="blog__title">{blog.title}</h3>
+                    <h3 className="blog__title">{faq.question}</h3>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <p className="blog__content">{blog.description}</p>
+                    <p className="blog__content">{faq.answer}</p>
                   </AccordionDetails>
                 </Accordion>
               </div>
