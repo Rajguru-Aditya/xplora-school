@@ -19,6 +19,7 @@
     transform: translate(0px, 90px);
     @media #{$md} {
       transform: translate(0px, 45px);
+      margin-top: 50px;
     }
   }
 
@@ -49,13 +50,17 @@
   &__title {
     color: var(--black-2);
     font-family: var(--font-urbanist);
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1.1;
     max-width: 720px;
-    padding-top: 16px;
+    padding-top: 50px;
     @media #{$md} {
-      font-size: 50px;
+      font-size: 40px;
+    }
+
+    @media #{$sm} {
+      font-size: 30px;
     }
   }
 
