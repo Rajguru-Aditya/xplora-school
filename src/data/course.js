@@ -76,7 +76,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "View Course",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
     {
@@ -110,7 +110,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "View Course",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
     {
@@ -144,7 +144,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "View Course",
+      enrollBtnText: "Apply Now",
       arrowIcon: RightArrowRedIcon,
     },
   ],
@@ -228,7 +228,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "View Course",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -250,7 +250,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "View Course",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -272,7 +272,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "View Course",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -294,7 +294,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "View Course",
+        text: "Apply Now",
         link: "course-detail",
       },
     },
@@ -317,7 +317,7 @@ const courseFee = {
         "Lifetime access to session recordings and resources",
         "1:1 Placement Assistance",
       ],
-      buttonText: "View Course",
+      buttonText: "Apply Now",
       type: "Online",
     },
     {
@@ -331,7 +331,7 @@ const courseFee = {
         "Graduation Day & Networking Events: Celebrate your achievement with a graduation ceremony, activities, and a chance to connect with peers, alumni, and industry leaders.",
         "Priority Placement Support: Direct access to job opportunities and client connections in major cities for walk-in interviews.",
       ],
-      buttonText: "View Course",
+      buttonText: "Apply Now",
       type: "Hybrid",
     },
   ],
