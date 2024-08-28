@@ -17,6 +17,9 @@ import StatusIcon from "/assets/imgs/icon/status-icon.svg";
 import UserGroupIcon from "/assets/imgs/icon/user-three-red.svg";
 import RightArrowRedIcon from "/assets/imgs/icon/arrow-right-red.svg";
 import RightArrowWhiteIcon from "/assets/imgs/icon/arrow-right-white.svg";
+import uiuxImg from "/assets/imgs/gallery/uiuxImg.png";
+import marketingImg from "/assets/imgs/gallery/marketingImg.png";
+import analyticsImg from "/assets/imgs/gallery/analyticsImg.png";
 
 const courseOne = {
   title: {
@@ -43,9 +46,9 @@ const courseOne = {
   ],
   courses: [
     {
-      image: CourseImageOne,
+      image: uiuxImg,
       instructor: {
-        image: InstructorImageFive,
+        image: uiuxImg,
         name: "Jackie Rippin",
       },
       wishlistIcon: WishListIcon,
@@ -73,11 +76,11 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Apply Now",
+      enrollBtnText: "View Course",
       arrowIcon: RightArrowRedIcon,
     },
     {
-      image: CourseImageTwo,
+      image: marketingImg,
       instructor: {
         image: InstructorImageOne,
         name: "Jackie Rippin",
@@ -107,11 +110,11 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Apply Now",
+      enrollBtnText: "View Course",
       arrowIcon: RightArrowRedIcon,
     },
     {
-      image: CourseImageFour,
+      image: analyticsImg,
       instructor: {
         image: InstructorImageTwo,
         name: "Jackie Rippin",
@@ -141,7 +144,7 @@ const courseOne = {
         //   description: "5K+ Students",
         // },
       ],
-      enrollBtnText: "Apply Now",
+      enrollBtnText: "View Course",
       arrowIcon: RightArrowRedIcon,
     },
   ],
@@ -225,7 +228,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "Apply Now",
+        text: "View Course",
         link: "course-detail",
       },
     },
@@ -247,7 +250,7 @@ const courseThree = {
         delay: "0.6",
       },
       btn: {
-        text: "Apply Now",
+        text: "View Course",
         link: "course-detail",
       },
     },
@@ -269,7 +272,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "Apply Now",
+        text: "View Course",
         link: "course-detail",
       },
     },
@@ -291,7 +294,7 @@ const courseThree = {
         delay: "0.8",
       },
       btn: {
-        text: "Apply Now",
+        text: "View Course",
         link: "course-detail",
       },
     },
@@ -314,7 +317,7 @@ const courseFee = {
         "Lifetime access to session recordings and resources",
         "1:1 Placement Assistance",
       ],
-      buttonText: "Apply Now",
+      buttonText: "View Course",
       type: "Online",
     },
     {
@@ -328,7 +331,7 @@ const courseFee = {
         "Graduation Day & Networking Events: Celebrate your achievement with a graduation ceremony, activities, and a chance to connect with peers, alumni, and industry leaders.",
         "Priority Placement Support: Direct access to job opportunities and client connections in major cities for walk-in interviews.",
       ],
-      buttonText: "Apply Now",
+      buttonText: "View Course",
       type: "Hybrid",
     },
   ],
