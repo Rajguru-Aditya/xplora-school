@@ -115,5 +115,15 @@
     margin-top: 50px;
     cursor: pointer;
     width: 100%;
+    transition: all 0.5s ease-in-out;
+
+    @media screen and (max-width: 700px) {
+      font-size: 18px;
+    }
+
+    &:hover{
+      background-color: #1B223C;
+      color: #fff;
+    }
   }
 }

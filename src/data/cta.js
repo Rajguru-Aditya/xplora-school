@@ -15,7 +15,7 @@ const ctaOne = {
   footerTitleVector: FooterTitleVector,
   action: {
     name: "Get Started",
-    link: "https://wa.me/7031853012",
+    link: "/contact",
     icon: ArrowRightWhite,
   },
   shapeOne: ShapeOne,

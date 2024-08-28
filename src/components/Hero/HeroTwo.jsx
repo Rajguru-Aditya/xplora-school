@@ -79,7 +79,9 @@ export default function HeroOne({ currentCourse }) {
             </>
           ))}
           <div className="hero__course-info-item">
-            <button className="hero__course-info-button">Apply Now</button>
+            <a href="https://wa.me/7031853012" target="_blank">
+              <button className="hero__course-info-button">Apply Now</button>
+            </a>
           </div>
         </div>
       </div>
