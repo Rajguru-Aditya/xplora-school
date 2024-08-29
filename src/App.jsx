@@ -47,6 +47,7 @@ const HealthCoach = lazy(() => import("@/pages/health-coach"));
 const NotFound = lazy(() => import("@/pages/404"));
 import Loading from "@/components/Loader/Loading";
 import { Navigate, Route, Routes } from "react-router-dom";
+import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
 
 function App() {
   return (
@@ -199,6 +200,8 @@ function App() {
             </Suspense>
           }
         />
+
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
 
         <Route
           path="children-education"
