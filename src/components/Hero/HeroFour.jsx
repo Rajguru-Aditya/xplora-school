@@ -50,7 +50,7 @@ export default function HeroFour() {
             <div className="abhero__video-wrap">
               <video
                 className="abhero__video"
-                src="../assets/media/videos/features-video.mp4"
+                src="../assets/media/videos/aboutVidNew.mp4"
                 loop
                 preload="auto"
                 muted

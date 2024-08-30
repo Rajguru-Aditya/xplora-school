@@ -161,7 +161,7 @@ const heroUI = {
     sliceFour: "Skills",
   },
   description:
-    "Learn to navigate the fast-paced world of digital marketing with our comprehensive Digital Marketing Mastery course. Designed for beginners and professionals alike, this course covers essential skills such as SEO, SEM, social media marketing, content strategy, email marketing, and data analytics. With hands-on projects and mentorship from industry experts, you'll gain practical experience and build a portfolio that showcases your expertise. Whether you aim to enhance your career or start a new one in digital marketing, this course will equip you with the tools and knowledge to succeed.",
+    "Become a master builder of user experiences! Learn the principles of user-centered design and create intuitive, visually stunning digital products. Your users (and your portfolio) will love you for it!",
   link: "courses",
   imageOne: HeroTwoImageOne,
   imageTwo: HeroTwoImageTwo,
@@ -185,7 +185,7 @@ const heroMarketing = {
     sliceFour: "Skills",
   },
   description:
-    "Master the art of creating user-centered designs with our UI/UX Design Essentials course. This course provides a thorough understanding of the principles of user interface and user experience design, focusing on usability, accessibility, and aesthetics. You’ll learn how to create intuitive and visually appealing digital products through wireframing, prototyping, and user testing. Guided by experienced designers, you'll work on real-world projects that help you build a strong portfolio. Whether you’re looking to start a career in UI/UX or enhance your design skills, this course will empower you to create compelling user experiences.",
+    "Get ready to level up your digital marketing skills! Learn the essentials of SEO, social media, and data analytics, and gain hands-on experience with real-world projects. Your future self (and your future employer) will thank you!",
   link: "courses",
   imageOne: HeroTwoImageOne,
   imageTwo: HeroTwoImageTwo,
@@ -209,7 +209,7 @@ const heroAnalytics = {
     sliceFour: "Skills",
   },
   description:
-    "Dive deep into the world of data with our Data Analysis Professional course. This program is perfect for those looking to develop strong analytical skills and learn how to turn raw data into meaningful insights. You'll cover a range of topics including statistical analysis, data visualization, predictive analytics, and data-driven decision-making. Using industry-standard tools and software, you will engage in real-world projects to apply what you’ve learned and solve complex business problems. Prepare to become a data-driven professional ready to impact decision-making processes in any organization.",
+    "Unleash your inner data detective! Develop the skills to turn raw data into meaningful insights and drive business decisions. With our expert guidance, you'll be solving mysteries and telling stories with data in no time!",
   link: "courses",
   imageOne: HeroTwoImageOne,
   imageTwo: HeroTwoImageTwo,

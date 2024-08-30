@@ -30,7 +30,7 @@ export default function HeroOne() {
     modules: [Autoplay, FreeMode],
   };
   return (
-    <section className="hero__area">
+    <section className="hero__area hero__area-1">
       <img
         src={coverbg}
         alt="cover image"

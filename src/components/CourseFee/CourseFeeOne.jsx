@@ -36,9 +36,23 @@ const CourseFeeOne = () => {
                     alt="checkmark"
                     className="course-fee-one__checkmark"
                   />
-                  <p key={index} className={`course-fee-one__card-feature`}>
-                    {feature}
-                  </p>
+                  {item.type === "Hybrid" ? (
+                    <p key={index} className={`course-fee-one__card-feature`}>
+                      <span
+                        style={{
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {feature?.split(":")[0]}:
+                        <br />
+                      </span>
+                      {feature?.split(":")[1]}
+                    </p>
+                  ) : (
+                    <p key={index} className={`course-fee-one__card-feature`}>
+                      {feature}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>

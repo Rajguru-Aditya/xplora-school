@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { heroAnalytics, heroMarketing, heroUI } from "../../data/hero";
 import coverbg from "../../assets/imgs/gallery/coverbg.png";
+import coverImg2 from "../../assets/imgs/gallery/coverImg2.png";
 
 export default function HeroOne({ currentCourse }) {
   const [heroData, setHeroData] = useState([]);
@@ -61,7 +62,7 @@ export default function HeroOne({ currentCourse }) {
           )}
         </div>
         <div className="hero__right ">
-          <img className="hero__img-new" src={coverImg1} alt="Icon" />
+          <img className="hero__img-new" src={coverImg2} alt="Icon" />
         </div>
       </div>
       {/* Course Info */}

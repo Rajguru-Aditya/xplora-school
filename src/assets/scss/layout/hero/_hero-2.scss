@@ -207,10 +207,10 @@
   }
 
   &__img-new {
-    width: 80%;
+    width: 70%;
     height: 100%;
     object-fit: contain;
-    margin-top: -100px;
+    // margin-top: -100px;
 
     @media #{$md} {
       display: none;
@@ -375,9 +375,9 @@
 
   &__content {
     color: var(--gray-2);
-    font-size: 18px;
+    font-size: 20px;
     padding: 25px 0px 30px;
-    line-height: 1.5;
+    line-height: 2;
     max-width: 500px;
     text-align: left;
 
