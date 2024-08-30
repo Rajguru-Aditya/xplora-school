@@ -42,7 +42,7 @@ const footerOne = {
       menus: [
         {
           name: "Privacy Policy",
-          link: "contact",
+          link: "privacy-policy",
         },
         {
           name: "Contact us",
