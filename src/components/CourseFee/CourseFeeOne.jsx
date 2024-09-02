@@ -55,6 +55,63 @@ const CourseFeeOne = () => {
                   )}
                 </div>
               ))}
+              <hr
+                style={{
+                  margin: "5px",
+                }}
+              />
+              <p
+                style={{
+                  fontWeight: "bold",
+                }}
+              >
+                *Additional Perks
+              </p>
+              {item.additionalPerks &&
+                item.additionalPerks.map((perk, index) => (
+                  <div
+                    key={index}
+                    className={`course-fee-one__card-perks-container`}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        // justifyContent: "center",
+                        gap: "20px",
+                      }}
+                    >
+                      <img
+                        src={`https://img.icons8.com/fluency-systems-regular/50/${
+                          item.title === "Virtual Classroom"
+                            ? "000000"
+                            : "ffffff"
+                        }/star--v1.png`}
+                        alt="star"
+                        className="course-fee-one__checkmark"
+                      />
+                      <p
+                        key={index}
+                        className={`course-fee-one__card-feature-title`}
+                        style={{
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {perk.title}:<br />
+                        <span
+                          key={index}
+                          // className={`course-fee-one__card-feature`}
+                          style={{
+                            fontWeight: "normal",
+                          }}
+                        >
+                          {perk.description}
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                ))}
             </div>
             <a href="https://wa.me/7031853012" target="_blank">
               <button className="course-fee-one__card-button">

@@ -93,6 +93,12 @@
     align-items: center;
   }
 
+  &__card-perks-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   &__checkmark{
     height: 15px;
     width: 15px;

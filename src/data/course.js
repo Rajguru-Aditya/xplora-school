@@ -318,6 +318,12 @@ const courseFee = {
         "1:1 Placement Assistance",
         "Live guest sessions featuring C-level executives and founders",
       ],
+      additionalPerks: [
+        {
+          title: "Guest Sessions",
+          description: "Access special guest sessions for advanced strategies.",
+        },
+      ],
       buttonText: "Apply Now",
       type: "Online",
     },
@@ -330,6 +336,18 @@ const courseFee = {
         "Career Acceleration: Expert-led mock interviews, resume building, and job strategy sessions",
         "Networking Opportunities: Offline Graduation day and events with peers, alumni, and industry leaders",
         "Priority Job Access: Direct connections to 500+ companies and walk-in interviews",
+      ],
+      additionalPerks: [
+        {
+          title: "Advanced Career Workshops",
+          description:
+            "Offline sessions focused on leadership, client management, and negotiation skills",
+        },
+        {
+          title: "Alumni Meetups & Events",
+          description:
+            "Stay connected through exclusive offline events and continued support after graduation",
+        },
       ],
       buttonText: "Apply Now",
       type: "Hybrid",
