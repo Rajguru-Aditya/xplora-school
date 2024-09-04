@@ -23,7 +23,17 @@ const RefundPolicy = () => {
           If you decide to withdraw from the course before it begins, you are
           eligible for a partial refund of the course fee. Please note that this
           refund will only be processed if the request is made before the start
-          date of the course.
+          date of the course.{" "}
+          <span
+            style={{
+              display: "block",
+              marginTop: "1rem",
+              fontStyle: "italic",
+            }}
+          >
+            The refund will be processed within 15 days after the support
+            request is raised.
+          </span>
         </p>
         <h3 className="refund-policy__subsection-title">
           After Course Commencement
