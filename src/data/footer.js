@@ -45,6 +45,14 @@ const footerOne = {
           link: "privacy-policy",
         },
         {
+          name: "Refund Policy",
+          link: "refund-policy",
+        },
+        {
+          name: "Terms & Conditions",
+          link: "terms-conditions",
+        },
+        {
           name: "Contact us",
           link: "contact",
         },

@@ -48,6 +48,8 @@ const NotFound = lazy(() => import("@/pages/404"));
 import Loading from "@/components/Loader/Loading";
 import { Navigate, Route, Routes } from "react-router-dom";
 import PrivacyPolicy from "./pages/privacy-policy/PrivacyPolicy";
+import RefundPolicy from "./pages/refund-policy/RefundPolicy";
+import TermsAndConditions from "./pages/terms-conditions/TermsAndConditions";
 
 function App() {
   return (
@@ -202,6 +204,8 @@ function App() {
         />
 
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="refund-policy" element={<RefundPolicy />} />
+        <Route path="terms-conditions" element={<TermsAndConditions />} />
 
         <Route
           path="children-education"

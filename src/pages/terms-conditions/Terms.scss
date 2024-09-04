@@ -1,0 +1,53 @@
+.terms-and-conditions {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__intro {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  &__section {
+    margin-bottom: 30px;
+  }
+
+  &__section-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  &__subsection-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+  &__text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+
+  &__link {
+    color: #0066cc;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__conclusion {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
