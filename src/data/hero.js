@@ -253,7 +253,7 @@ const heroFour = {
     sliceTwo: "Xplora School:",
   },
   descriptionOne:
-    "At Xplora School, we are dedicated to transforming your educational journey into a pathway for real-world success. Whether you're a high school graduate, a working professional, or someone looking to switch careers, our courses in Digital Marketing, Data Analysis, and UI/UX are designed to equip you with the skills you need to excel. With small class sizes, hybrid learning options, and strong industry connections, we’re here to help you achieve your goals.",
+    "At Xplora School, our founder- Adhiraj Kashyap and we are dedicated to transforming your educational journey into a pathway for real-world success. Whether you're a high school graduate, a working professional, or someone looking to switch careers, our courses in Digital Marketing, Data Analysis, and UI/UX are designed to equip you with the skills you need to excel. With small class sizes, hybrid learning options, and strong industry connections, we’re here to help you achieve your goals.",
   descriptionTwo:
     "We believe in putting our clients at the heart of everything we do. Your success is our success, and we are committed to delivering exceptional service tailored to your unique.",
 };
